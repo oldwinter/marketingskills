@@ -1,9 +1,13 @@
 ---
 name: referrals
-description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
+description: "当用户要创建、优化或分析客户推荐、affiliate、ambassador 或口碑增长计划时使用；英文触发词包括 refer a friend、viral loop、affiliate payout。发布期传播参见 launch，影响者合作参见 influencer-marketing。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 推荐与联盟计划（中文执行导读）
+先区分客户推荐与联盟模式，确认触发时刻、参与者动机、产品适配和资源，再设计分享机制、双边激励、追踪、防作弊、沟通和优化指标。
+激励应支持真实价值而非垃圾传播；保留 referral code、payout、归因窗口和平台字段原样，下方英文正文与 references 是权威契约。
 
 # Referral & Affiliate Programs
 

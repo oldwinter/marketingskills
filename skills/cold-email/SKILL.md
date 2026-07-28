@@ -1,9 +1,13 @@
 ---
 name: cold-email
-description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions "cold outreach," "prospecting email," "outbound email," "email to leads," "reach out to prospects," "sales email," "follow-up email sequence," "nobody's replying to my emails," or "how do I write a cold email." Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.
+description: "当用户要撰写 B2B 冷启动邮件、销售开发邮件或多触点跟进序列时使用；英文触发词包括 cold email、outbound、prospecting email、SDR。生命周期邮件参见 emails，其他销售材料参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# B2B 冷邮件（中文执行导读）
+先确认 ICP、收件人情境、可验证的个性化信号和单一行动请求，再写主题、开场、价值、证据与低摩擦 CTA，并设计不重复的跟进节奏。
+像同行而非群发供应商写作，遵守外联法规与退订要求；保留变量、字段、产品名和证据原样，下方英文正文与 references 是权威契约。
 
 # Cold Email Writing
 

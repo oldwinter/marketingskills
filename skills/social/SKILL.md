@@ -1,9 +1,13 @@
 ---
 name: social
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations."
+description: "当用户要为 LinkedIn、X、Instagram、TikTok、Facebook 等创建、排期、复用或优化内容，或做 social listening 时使用；英文触发词包括 content calendar、carousel、Reels、Shorts。广告参见 ad-creative，PR 参见 public-relations。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
+
+# 社交媒体内容（中文执行导读）
+先确认平台、目标、受众、品牌语气与资源，再建立内容支柱和格式组合，写 hooks、正文、视频脚本或 carousel，安排复用与发布节奏，并用监听信号指导互动。
+按平台原生行为创作而非机械跨发；保留账号名、hashtag、尺寸、时长和平台功能名原样，下方英文正文与 references 是权威契约。
 
 # Social Content
 

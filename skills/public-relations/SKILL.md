@@ -1,9 +1,13 @@
 ---
 name: public-relations
-description: "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email."
+description: "当用户要获取媒体报道、寻找记者、写 pitch、新闻劫持或响应记者请求时使用；这里的 PR 指 public relations，不是 pull request。英文触发词包括 press release、earned media、HARO、Qwoted。发布参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
+
+# 公共关系与赢得媒体（中文执行导读）
+先判断是否具备可报道性并准备 press page 与 media kit，再按记者 beat 和近期作品建立媒体名单，写相关且简洁的 pitch，或按请求时限提供可引用回应，并记录跟进与结果。
+不群发、不伪造新闻价值或记者关系；保留媒体名、记者名、引用、日期和联系方式原样，下方英文正文与 references 是权威契约。
 
 # Public Relations & Earned Media
 

@@ -1,9 +1,13 @@
 ---
 name: site-architecture
-description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," "website planning," "what pages do I need," "how should I organize my site," or "site navigation." Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.
+description: "当用户要规划或重构页面层级、导航、URL、面包屑或内部链接时使用；英文触发词包括 sitemap、information architecture、site hierarchy。XML sitemap 属于技术 SEO，参见 seo-audit；结构化数据参见 schema。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 网站信息架构（中文执行导读）
+先收集业务、受众、站点类型、现状与内容清单，再设计层级和页面类型，输出可读的站点树、导航、URL 规则、面包屑和内链策略，并检查扩展性。
+架构应服务用户任务与发现路径，不为关键词堆叠页面；保留 slug、URL、页面名和技术指令原样，下方英文正文与 references 是权威契约。
 
 # Site Architecture
 

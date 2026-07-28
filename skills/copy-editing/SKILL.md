@@ -1,9 +1,13 @@
 ---
 name: copy-editing
-description: "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting."
+description: "当用户已有营销文案并要审阅、润色、收紧、刷新或做内容审计时使用；英文触发词包括 edit this copy、proofread、copy sweep、refresh content。新写文案参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 营销文案编辑（中文执行导读）
+先保留原始目标与事实，依次检查清晰度、语气、价值、证据、具体性、情绪和风险，再用专家面板与快速清单给出逐项修改和最终版本。
+编辑不应偷偷改变产品承诺或品牌事实；保留专有名词、数据、链接和法律文案原样，下方英文正文与 references 是权威契约。
 
 # Copy Editing
 

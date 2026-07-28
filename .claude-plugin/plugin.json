@@ -1,12 +1,12 @@
 {
   "name": "marketing-skills",
-  "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
-  "version": "2.10.0",
+  "description": "面向 AI Agent 的中文营销 Skills：转化优化、文案、SEO、付费广告、创意与增长",
+  "version": "2.10.1",
   "author": {
     "name": "Corey Haines"
   },
-  "homepage": "https://github.com/coreyhaines31/marketingskills",
-  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "homepage": "https://github.com/oldwinter/marketingskills",
+  "repository": "https://github.com/oldwinter/marketingskills",
   "license": "MIT",
   "skills": "./skills"
 }

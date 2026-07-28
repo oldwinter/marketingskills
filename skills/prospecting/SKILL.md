@@ -1,9 +1,13 @@
 ---
 name: prospecting
-description: When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions "prospecting," "build a prospect list," "find prospects," "find leads," "lead gen list," "find SaaS companies that," "find B2B companies," "find local businesses," "ICP-fit accounts," "who should we go after," "outbound list," "target account list," "find clients near me," "businesses without websites," "prospect research," "qualified leads," "find my first customers," "early adopters," "design partners," "beta users," or "who has this problem." Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.
+description: "当用户要寻找、筛选和建立 B2B SaaS、一般 B2B 或本地商家潜客清单时使用；英文触发词包括 prospecting、lead list、target accounts、design partners。外联文案参见 cold-email，竞品深研参见 competitor-profiling。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
+
+# 销售线索挖掘（中文执行导读）
+先选择业务分支并定义 ICP 与排除条件，再从合规数据源发现候选、逐项验证和评分，最后输出含证据、优先级与下一步的 lead sheet。
+只收集业务所需的公开或获准数据并遵守当地法规；保留公司名、URL、字段和评分规则原样，下方英文正文与 references 是权威契约。
 
 # Prospecting
 

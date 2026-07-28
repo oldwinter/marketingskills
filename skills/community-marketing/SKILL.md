@@ -1,9 +1,13 @@
 ---
 name: community-marketing
-description: "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\""
+description: "当用户要创建或发展 Discord、Slack、论坛、subreddit、品牌倡导者或社区驱动增长体系时使用；英文触发词包括 community strategy、community-led growth、ambassador program。相关边界参见下方正文。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 社区营销（中文执行导读）
+先定义成员共享身份、核心价值和目标行为，再选择平台与启动、增长或倡导者 playbook，明确内容节奏、治理、运营角色和社区健康指标。
+价值必须先流向成员，避免把社区当广播列表；保留平台功能、角色名和指标原样，下方英文正文与 references 是权威契约。
 
 # Community Marketing
 

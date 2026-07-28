@@ -1,9 +1,13 @@
 ---
 name: competitor-profiling
-description: "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement."
+description: "当用户提供竞争对手 URL 并要研究、画像或形成竞争情报档案时使用；英文触发词包括 competitor profile、competitive intelligence、competitor dossier。比较页参见 competitors，销售战卡参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 竞争对手画像（中文执行导读）
+先保存可追溯的原始资料，再按站点、产品、定位、受众、定价、SEO 与市场信号研究，区分事实、推断和未知，最后输出结构一致的 profile 文档。
+以当前可验证证据为准并标注来源日期；保留 URL、产品术语、数据字段和文件结构原样，下方英文正文与 references 是权威契约。
 
 # Competitor Profiling
 

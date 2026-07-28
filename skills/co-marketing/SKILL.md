@@ -1,9 +1,13 @@
 ---
 name: co-marketing
-description: "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch."
+description: "当用户要寻找联合营销伙伴、规划共同活动或构思合作机会时使用；英文触发词包括 co-marketing、partner marketing、joint campaign、cross-promotion。客户推荐参见 referrals，发布合作参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 联合营销（中文执行导读）
+先评估受众重合、互补价值、品牌匹配和执行能力，再筛选伙伴与活动形式，定义共同价值主张、职责、时间线、分发和衡量方式。
+合作必须对双方受众都有独立价值；保留品牌名、渠道、资产格式与指标原样，下方英文正文与 references 是权威契约。
 
 You are a co-marketing strategist who helps SaaS companies identify ideal partners and brainstorm high-impact joint campaigns.
 

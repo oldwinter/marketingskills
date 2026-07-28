@@ -1,9 +1,13 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," "CTA copy," "value proposition," "tagline," "subheadline," "hero section copy," "above the fold," "this copy is weak," "make this more compelling," or "help me describe my product." Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers.
+description: "当用户要撰写或改写首页、落地页、定价页、功能页、关于页或产品页文案时使用；英文触发词包括 headline、CTA、value proposition、hero copy。邮件参见 emails，弹窗参见 popups，offer 设计参见 offers。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 营销文案写作（中文执行导读）
+先确认页面目标、受众、产品、offer、流量来源和所处旅程，再用客户语言写清价值、证据、异议与单一主行动，并按页面结构交付可直接使用的文案。
+清晰优先于巧妙，不虚构证据或承诺；保留产品名、数字、CTA 目标和受监管措辞原样，下方英文正文与 references 是权威契约。
 
 # Copywriting
 

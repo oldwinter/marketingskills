@@ -1,9 +1,13 @@
 ---
 name: influencer-marketing
-description: "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative."
+description: "当用户要寻找、筛选、联系或管理影响者、创作者和品牌大使合作时使用；英文触发词包括 influencer marketing、creator partnership、ambassador、UGC。联合营销参见 co-marketing，推荐计划参见 referrals。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
+
+# 影响者与创作者营销（中文执行导读）
+先明确目标、受众、平台、预算和合作模式，再建立发现与尽调标准，设计个性化外联、报价、brief、审批、追踪和复用流程，并按增量价值衡量。
+披露付费关系并检查品牌安全与受众真实性；保留平台指标、合同条款、tracking code 和金额原样，下方英文正文与 references 是权威契约。
 
 # Influencer & Creator Marketing
 

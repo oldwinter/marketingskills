@@ -1,7 +1,13 @@
 ---
 name: marketing-plan
-description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.
+description: "当用户需要面向客户、公司或自有产品的完整 90 天与 12 个月营销计划时使用；英文触发词包括 marketing plan、GTM plan、AARRR plan、fractional CMO。定位上下文参见 product-marketing，单渠道执行参见对应 Skill。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+metadata:
+  version: 1.2.0
 ---
+
+# 营销计划（中文执行导读）
+先读取或创建客户 progress 状态，按 INIT 收集研究与 17 项现状审计，再在 REVIEW 中逐节确认 13 个部分，最后在 FINALIZE 编译、校验并交付可粘贴到 Notion 的计划。
+尊重可恢复状态机，绝不静默覆盖已完成计划；保留 AARRR、路径、文件名、预算和 Skill 名原样，下方英文正文与 references 是权威契约。
 
 # Marketing Plan
 

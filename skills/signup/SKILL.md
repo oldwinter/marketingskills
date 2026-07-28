@@ -1,9 +1,13 @@
 ---
 name: signup
-description: When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "account creation flow," "people aren't signing up," "signup abandonment," "trial conversion rate," "nobody completes registration," "too many steps to sign up," or "simplify our signup." Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.
+description: "当用户要优化注册、开户或试用激活流程并减少 dropoff 时使用；英文触发词包括 signup conversion、registration friction、trial signup、account creation。注册后体验参见 onboarding，非账户表单参见 cro。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 注册流程转化优化（中文执行导读）
+先确认目标用户、基线、流量与必须采集的信息，再逐字段审计，比较单步与多步、社交登录、信任、错误和移动端体验，并提出按风险排序的实验。
+最小化必填项但不牺牲必要安全与合规；保留字段名、验证规则、事件和指标原样，下方英文正文与 references 是权威契约。
 
 # Signup Flow CRO
 

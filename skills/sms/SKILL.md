@@ -1,9 +1,13 @@
 ---
 name: sms
-description: When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions "SMS marketing," "text message campaigns," "SMS sequence," "SMS automation," "abandoned cart text," "post-purchase SMS," "Klaviyo SMS," "Postscript," "Attentive," "Twilio," "A2P 10DLC," "TCPA," "SMS compliance," "short code," "toll-free SMS," "MMS campaign," "should I do SMS," or "SMS vs email." For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.
+description: "当用户要规划、搭建或优化 SMS/MMS 欢迎、弃购、售后、召回、促销或事务消息时使用；英文触发词包括 SMS marketing、Klaviyo SMS、Twilio、A2P 10DLC、TCPA。邮件参见 emails，号码收集弹窗参见 popups。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
+
+# 短信营销（中文执行导读）
+先确认业务地区、号码类型、同意记录、平台、目标和现状，再选择 SMS 胜于邮件的场景，设计合规的触发、频率、文案、quiet hours、退订与衡量方案。
+合规优先，法规可能变化，应核对当前官方要求；保留 STOP 等关键词、号码格式、平台字段和法规名称原样，下方英文正文与 references 是权威契约。
 
 # SMS Marketing
 

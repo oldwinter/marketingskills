@@ -1,60 +1,65 @@
-# Marketing Skills Versions
+# Marketing Skills 版本记录
 
-Current versions of all skills. Agents can compare against local versions to check for updates.
+下表记录全部 Skill 的当前版本；Agent 可与本地版本比较并检查更新。历史变更保留上游英文原文。
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.0 | 2026-05-05 |
-| ad-creative | 2.8.0 | 2026-07-14 |
-| ai-seo | 2.2.0 | 2026-07-09 |
-| analytics | 2.0.1 | 2026-07-22 |
-| aso | 2.0.0 | 2026-05-05 |
-| attribution | 1.1.0 | 2026-07-23 |
-| churn-prevention | 2.0.0 | 2026-05-05 |
-| co-marketing | 2.0.0 | 2026-05-05 |
-| cold-email | 2.0.0 | 2026-05-05 |
-| community-marketing | 2.0.0 | 2026-05-05 |
-| competitor-profiling | 2.0.0 | 2026-05-05 |
-| competitors | 2.0.1 | 2026-07-09 |
-| content-strategy | 2.0.0 | 2026-05-05 |
-| copy-editing | 2.0.0 | 2026-05-05 |
-| copywriting | 2.0.1 | 2026-06-16 |
-| cro | 2.0.0 | 2026-05-05 |
-| customer-research | 2.0.1 | 2026-07-10 |
-| directory-submissions | 2.0.0 | 2026-05-05 |
-| emails | 2.0.0 | 2026-05-05 |
-| free-tools | 2.0.0 | 2026-05-05 |
-| image | 2.0.1 | 2026-05-18 |
-| influencer-marketing | 1.0.0 | 2026-07-15 |
-| launch | 2.0.1 | 2026-06-16 |
-| lead-magnets | 2.0.0 | 2026-05-05 |
-| marketing-council | 1.0.0 | 2026-07-06 |
-| marketing-ideas | 2.0.0 | 2026-05-05 |
-| marketing-loops | 1.2.0 | 2026-07-10 |
-| marketing-plan | 1.1.0 | 2026-05-29 |
-| marketing-psychology | 2.0.0 | 2026-05-05 |
-| offers | 1.0.0 | 2026-06-16 |
-| onboarding | 2.0.0 | 2026-05-05 |
-| ads | 2.2.0 | 2026-07-05 |
-| paywalls | 2.0.0 | 2026-05-05 |
-| popups | 2.0.0 | 2026-05-05 |
-| pricing | 2.1.0 | 2026-07-27 |
-| product-marketing | 2.1.0 | 2026-07-16 |
-| programmatic-seo | 2.0.0 | 2026-05-05 |
-| prospecting | 1.1.0 | 2026-07-13 |
-| public-relations | 1.0.0 | 2026-06-10 |
-| referrals | 2.0.0 | 2026-05-05 |
-| revops | 2.0.0 | 2026-05-05 |
-| sales-enablement | 2.0.1 | 2026-06-16 |
-| schema | 2.0.0 | 2026-05-05 |
-| seo-audit | 2.0.0 | 2026-05-05 |
-| signup | 2.0.0 | 2026-05-05 |
-| site-architecture | 2.0.0 | 2026-05-05 |
-| sms | 1.0.0 | 2026-05-21 |
-| social | 2.2.0 | 2026-07-09 |
-| video | 2.1.0 | 2026-07-14 |
+| ab-testing | 2.1.0 | 2026-07-28 |
+| ad-creative | 2.9.0 | 2026-07-28 |
+| ai-seo | 2.3.0 | 2026-07-28 |
+| analytics | 2.1.0 | 2026-07-28 |
+| aso | 2.1.0 | 2026-07-28 |
+| attribution | 1.2.0 | 2026-07-28 |
+| churn-prevention | 2.1.0 | 2026-07-28 |
+| co-marketing | 2.1.0 | 2026-07-28 |
+| cold-email | 2.1.0 | 2026-07-28 |
+| community-marketing | 2.1.0 | 2026-07-28 |
+| competitor-profiling | 2.1.0 | 2026-07-28 |
+| competitors | 2.1.0 | 2026-07-28 |
+| content-strategy | 2.1.0 | 2026-07-28 |
+| copy-editing | 2.1.0 | 2026-07-28 |
+| copywriting | 2.1.0 | 2026-07-28 |
+| cro | 2.1.0 | 2026-07-28 |
+| customer-research | 2.1.0 | 2026-07-28 |
+| directory-submissions | 2.1.0 | 2026-07-28 |
+| emails | 2.1.0 | 2026-07-28 |
+| free-tools | 2.1.0 | 2026-07-28 |
+| image | 2.1.0 | 2026-07-28 |
+| influencer-marketing | 1.1.0 | 2026-07-28 |
+| launch | 2.1.0 | 2026-07-28 |
+| lead-magnets | 2.1.0 | 2026-07-28 |
+| marketing-council | 1.1.0 | 2026-07-28 |
+| marketing-ideas | 2.1.0 | 2026-07-28 |
+| marketing-loops | 1.3.0 | 2026-07-28 |
+| marketing-plan | 1.2.0 | 2026-07-28 |
+| marketing-psychology | 2.1.0 | 2026-07-28 |
+| offers | 1.1.0 | 2026-07-28 |
+| onboarding | 2.1.0 | 2026-07-28 |
+| ads | 2.3.0 | 2026-07-28 |
+| paywalls | 2.1.0 | 2026-07-28 |
+| popups | 2.1.0 | 2026-07-28 |
+| pricing | 2.2.0 | 2026-07-28 |
+| product-marketing | 2.2.0 | 2026-07-28 |
+| programmatic-seo | 2.1.0 | 2026-07-28 |
+| prospecting | 1.2.0 | 2026-07-28 |
+| public-relations | 1.1.0 | 2026-07-28 |
+| referrals | 2.1.0 | 2026-07-28 |
+| revops | 2.1.0 | 2026-07-28 |
+| sales-enablement | 2.1.0 | 2026-07-28 |
+| schema | 2.1.0 | 2026-07-28 |
+| seo-audit | 2.1.0 | 2026-07-28 |
+| signup | 2.1.0 | 2026-07-28 |
+| site-architecture | 2.1.0 | 2026-07-28 |
+| sms | 1.1.0 | 2026-07-28 |
+| social | 2.3.0 | 2026-07-28 |
+| video | 2.2.0 | 2026-07-28 |
 
 ## Recent Changes
+
+### 2.10.1 (2026-07-28)
+
+- 为全部 49 个运行时 Skill 添加中文触发说明与紧凑执行导读；上游英文正文和 references 继续作为权威契约。
+- 将 plugin 元数据与安装文档切换到 `oldwinter/marketingskills` 中文 fork。
 
 ### 2.10.0 (2026-07-22)
 

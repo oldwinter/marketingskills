@@ -1,9 +1,13 @@
 ---
 name: customer-research
-description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.
+description: "当用户要规划客户研究、分析访谈/评价/工单等现有资料，或从线上聚集地提炼客户语言时使用；英文触发词包括 customer research、VOC、interview analysis、pain points。相关范围参见下方正文。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 客户研究（中文执行导读）
+先选择分析现有资料或数字化聚集地研究模式，保存来源并提取可追溯证据，再按频率与强度归纳痛点、动机、异议、替代方案和原话，最后区分事实与假设。
+不要杜撰引语或过度概括少量样本；保留原始引语、来源 URL、受访者标签和数据字段原样，下方英文正文与 references 是权威契约。
 
 # Customer Research
 

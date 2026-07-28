@@ -1,9 +1,13 @@
 ---
 name: aso
-description: "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it."
+description: "当用户提供 App Store 或 Google Play 页面并要审计或提升可见度、排名与下载转化时使用；英文触发词包括 ASO audit、app store optimization、listing conversion。相关边界参见下方正文。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 应用商店优化审计（中文执行导读）
+先识别商店并获取完整 listing 与视觉素材，再判断品牌成熟度，按维度评分并与竞品比较，最后按影响与工作量给出关键词、文案和素材行动清单。
+仅根据可观察证据评分，不虚构商店数据；保留商店字段、字符限制、关键词和 URL 原样，下方英文正文与 references 是权威契约。
 
 # ASO Audit
 

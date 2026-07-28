@@ -1,9 +1,13 @@
 ---
 name: offers
-description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement."
+description: "当用户要设计、评估或强化服务、课程、咨询、高客单 B2B 等完整 offer 时使用；英文触发词包括 offer design、value equation、bonuses、guarantee、risk reversal。定价参见 pricing，文案表达参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
+
+# Offer 设计（中文执行导读）
+先收集结果、受众、痛点、交付能力、价格与风险，再用价值方程组合核心承诺、机制、证据、bonus、保证、稀缺性和命名，最后检查利润与履约可行性。
+不得制造虚假稀缺、无法兑现的保证或夸大结果；保留价格、条款、产品名和框架名原样，下方英文正文与 references 是权威契约。
 
 # Offer Design
 

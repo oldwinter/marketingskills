@@ -1,9 +1,13 @@
 ---
 name: marketing-loops
-description: "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing."
+description: "当用户要设计可重复、可调度、带反馈的营销系统，而非一次性 campaign 时使用；英文触发词包括 marketing loop、growth loop、content loop、feedback loop。分析参见 analytics，计划参见 marketing-plan。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
+
+# 营销循环（中文执行导读）
+先确认循环的触发、生产、分发、反馈与再投入节点，再选择适配模板，定义节奏、负责人、输入输出、质量门槛和故障处理，并给出首轮运行方案。
+只有反馈能改变下一轮输入时才称为 loop；保留 cron、事件、状态、工具和指标原样，下方英文正文与 references 是权威契约。
 
 # Marketing Loops
 

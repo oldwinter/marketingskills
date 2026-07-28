@@ -1,9 +1,13 @@
 ---
 name: ads
-description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
+description: "当用户要规划或优化 Google Ads、Meta、LinkedIn、X 等付费广告时使用；英文触发词包括 PPC、ROAS、CPA、retargeting、Performance Max、ABM。批量创意参见 ad-creative，落地页优化参见 cro。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
+
+# 付费广告（中文执行导读）
+先收集目标、offer、受众、预算、渠道和历史数据，再确定平台、账户结构、定向、出价、预算分配与衡量方式，最后输出启动、监控和淘汰规则。
+不要在缺少数据时承诺 ROAS；保留平台名、指标缩写、广告字段和预算单位原样，下方英文正文与 references 是权威契约。
 
 # Paid Ads
 

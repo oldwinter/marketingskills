@@ -1,9 +1,13 @@
 ---
 name: sales-enablement
-description: "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers."
+description: "当用户要创建销售 deck、one-pager、异议处理、ROI 分析、demo 脚本、talk track 或 playbook 时使用；英文触发词包括 sales collateral、pitch deck、proposal template。竞品内容参见 competitors，冷邮件参见 cold-email。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 销售赋能（中文执行导读）
+先确认买家、销售阶段、使用场景、证据和常见异议，再选择资产类型，按可扫描结构连接问题、价值、证明与下一步，并提供销售可自行定制的字段和使用说明。
+销售资产必须可验证、可更新且贴近真实对话；保留报价、客户证据、产品术语和幻灯片结构原样，下方英文正文与 references 是权威契约。
 
 # Sales Enablement
 

@@ -1,9 +1,13 @@
 ---
 name: onboarding
-description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experience," "users aren't activating," "nobody completes setup," "low activation rate," "users sign up but don't use the product," "time to value," or "first session experience." Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.
+description: "当用户要优化注册后的激活、首次体验、aha moment、time to value 或 onboarding flow 时使用；英文触发词包括 activation rate、first session、users sign up but don't use。注册参见 signup，持续邮件参见 emails。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 用户引导转化优化（中文执行导读）
+先定义可观察的激活事件与基线，再审计首 30 秒、清单、空状态、渐进披露和多渠道触点，按最短价值路径重排步骤，并制定分群实验与衡量方案。
+让用户实际完成价值动作而非观看产品导览；保留事件名、状态、路径和指标原样，下方英文正文与 references 是权威契约。
 
 # Onboarding CRO
 

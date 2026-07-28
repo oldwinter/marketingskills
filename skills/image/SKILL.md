@@ -1,9 +1,13 @@
 ---
 name: image
-description: "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Flux Kontext,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'ChatGPT Images,' 'Ideogram,' 'Gemini image,' 'Nano Banana,' 'Recraft,' 'Stable Diffusion,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video."
+description: "当用户要生成、编辑或制作营销图像、产品图、社交图、缩略图或视觉资产时使用；英文触发词包括 AI image、image generation、product screenshot、social graphic。视频参见 video，广告素材参见 ad-creative。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 营销图像（中文执行导读）
+先确认用途、尺寸、品牌、主体、参考图与交付格式，再在 AI 生成、设计工具和截图工作流之间选择；编写精确提示词，迭代构图与可读性，并验证最终文件。
+不得虚构产品 UI 或滥用受保护素材；保留尺寸、色值、文件格式、模型名和工具命令原样，下方英文正文与 references 是权威契约。
 
 # Image
 

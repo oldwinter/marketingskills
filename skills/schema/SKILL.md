@@ -1,9 +1,13 @@
 ---
 name: schema
-description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in search," or "add structured data." Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.
+description: "当用户要添加、修复或优化网站 schema markup 与 JSON-LD 时使用；英文触发词包括 structured data、schema.org、rich snippets、FAQ schema、Product schema。广泛 SEO 问题参见 seo-audit，AI 搜索参见 ai-seo。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# Schema 结构化数据（中文执行导读）
+先识别页面类型与可见内容，再选择最匹配的 schema 类型，生成准确的 JSON-LD、处理多实体关系，并用官方工具验证语法与富媒体结果资格。
+标记内容必须真实且页面可见，不承诺展示 rich result；保留 schema.org type、property、JSON key 和 URL 原样，下方英文正文与 references 是权威契约。
 
 # Schema Markup
 

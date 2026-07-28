@@ -1,9 +1,13 @@
 ---
 name: marketing-psychology
-description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting."
+description: "当用户要把心理学、行为经济学或心智模型应用于营销信息、定价和用户行为时使用；英文触发词包括 marketing psychology、cognitive bias、persuasion、behavioral economics。定价实务参见 pricing，文案参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 营销心理学（中文执行导读）
+先明确目标行为、受众情境和伦理边界，再从基础思维、买家理解、说服与定价模型中选择少量相关机制，解释适用条件并转化为可测试方案。
+不要把模型当操控捷径或伪科学保证；保留模型名、实验指标和法律要求原样，下方英文正文与 references 是权威契约。
 
 # Marketing Psychology & Mental Models
 

@@ -1,9 +1,13 @@
 ---
 name: emails
-description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based emails," "email funnel," "email workflow," "what emails should I send," "welcome series," or "email cadence." Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding.
+description: "当用户要设计或优化欢迎、培育、激活、促销、流失预防、召回等邮件序列时使用；英文触发词包括 email sequence、drip campaign、lifecycle email、welcome flow。冷外联参见 cold-email，SMS 参见 sms。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 生命周期邮件（中文执行导读）
+先确认受众、触发事件、生命周期阶段、目标与现有数据，再选择序列类型，逐封定义目的、时机、主题、正文与 CTA，最后补充频控、分支、测试和衡量方案。
+每封邮件只承担一个主要动作，并遵守同意与退订规则；保留变量、事件名、时间间隔和平台字段原样，下方英文正文与 references 是权威契约。
 
 # Email Sequence Design
 

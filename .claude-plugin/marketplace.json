@@ -5,14 +5,13 @@
     "url": "https://corey.co"
   },
   "metadata": {
-    "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, and growth",
-    "version": "2.10.0",
-    "repository": "https://github.com/coreyhaines31/marketingskills"
+    "description": "面向 AI Agent 的中文营销 Skills：转化优化、文案、SEO、付费广告与增长",
+    "version": "2.10.1"
   },
   "plugins": [
     {
       "name": "marketing-skills",
-      "description": "49 marketing skills for technical marketers and founders: CRO, copywriting, cold email, prospecting, SEO, AI SEO, paid ads, SMS, ad creative, video production, image generation, co-marketing, churn prevention, pricing, referrals, revenue operations, sales enablement, customer research, site architecture, comprehensive AARRR-structured marketing plans, public relations and earned media, offer design, and more",
+      "description": "面向技术营销人员与创始人的 49 marketing skills，提供中文触发说明和执行导读，覆盖 CRO、文案、冷邮件、SEO、广告、定价、留存、RevOps、AARRR 营销计划等工作流",
       "source": "./"
     }
   ]

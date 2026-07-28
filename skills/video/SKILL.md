@@ -1,9 +1,13 @@
 ---
 name: video
-description: "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' 'copy this edit,' 'match this video style,' 'reverse-engineer this video,' 'edit like this reference,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative."
+description: "当用户要用 AI 工具或程序化框架创建、生成、仿制剪辑结构或生产视频时使用；英文触发词包括 Remotion、Hyperframes、HeyGen、Veo、Sora、Runway。内容策略参见 social，视频广告参见 ad-creative。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
+
+# 视频制作（中文执行导读）
+先确认目标、受众、渠道、时长、参考和制作约束，再选择程序化视频、AI 生成、avatar 或混合流程，设计脚本、分镜、提示词、素材与渲染验证，并规划迭代。
+仅复用可授权的风格特征和素材，不冒充真实人物；保留模型名、参数、分辨率、帧率和命令原样，下方英文正文与 references 是权威契约。
 
 # Video
 

@@ -1,9 +1,13 @@
 ---
 name: lead-magnets
-description: When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist," "template download," "opt-in," "freebie," "PDF download," "resource library," "content offer," "email capture content," "Notion template," "spreadsheet template," or "what should I give away for emails." Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.
+description: "当用户要构思、创建或优化清单、模板、报告、课程、测验等 lead magnet 时使用；英文触发词包括 lead magnet、gated content、downloadable、content upgrade。表单和页面转化参见 cro，邮件培育参见 emails。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 获客磁铁（中文执行导读）
+先匹配 ICP、痛点、买家阶段和期望下一步，再选择能快速兑现价值的格式，设计内容、预览、gating、交付与后续培育，并定义质量而非只看下载量。
+避免用泛化资料换取过多信息；保留文件格式、表单字段、CTA 和事件名原样，下方英文正文与 references 是权威契约。
 
 # Lead Magnets
 

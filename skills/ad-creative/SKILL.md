@@ -1,9 +1,13 @@
 ---
 name: ad-creative
-description: "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' 'static ads,' 'static ad concepts,' 'ad templates,' 'iMessage ad,' 'chat reveal ad,' 'fake DM ad,' 'ChatGPT ad,' 'Apple Notes ad,' 'AirDrop ad,' 'creative strategy,' 'creative roadmap,' 'creative retro,' 'hook writing,' 'creative review page,' 'present ad creative for approval,' 'motion video ad,' 'faceless video ad,' 'animated explainer ad,' 'motion collage ad,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see ads. For landing page copy, see copywriting."
+description: "当用户要生成、迭代或规模化广告标题、正文、视觉概念或完整变体时使用；英文触发词包括 ad creative、RSA headlines、Facebook ad copy、creative testing。投放策略参见 ads，落地页文案参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.8.0
+  version: 2.9.0
 ---
+
+# 广告创意（中文执行导读）
+先确认平台、版位、受众、产品、offer、约束与已有表现数据，再选择从零生成、基于数据迭代、静态批量或创意策略循环，并按平台规格交付可测试变体。
+区分已验证事实与创意假设，不虚构产品证据；保留平台字段、字符限制、素材规格和提示词原样，下方英文正文与 references 是权威契约。
 
 # Ad Creative
 

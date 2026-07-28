@@ -1,9 +1,13 @@
 ---
 name: cro
-description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups."
+description: "当用户要诊断或提升营销页面、落地页、定价页或表单转化时使用，即使只提供 URL 也应触发；英文触发词包括 CRO、conversion rate、form abandonment。注册参见 signup，引导参见 onboarding，弹窗参见 popups。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 转化率优化（中文执行导读）
+先确认页面目标、受众、流量、基线和约束，再按价值主张、标题、CTA、层级、信任、异议和摩擦审计，最后区分快速修复、高影响改动与可验证实验。
+不要只凭审美下结论或保证提升幅度；保留指标、页面元素名、URL 和实验术语原样，下方英文正文与 references 是权威契约。
 
 # Conversion Rate Optimization (CRO)
 

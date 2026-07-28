@@ -1,9 +1,13 @@
 ---
 name: analytics
-description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," "tracking plan," "how do I measure this," "track conversions," "Mixpanel," "Segment," "are my events firing," or "analytics isn't working." Use this whenever someone asks how to know if something is working or wants to measure marketing results. For choosing attribution models, comparing multi-touch/MMM/incrementality, or reconciling conflicting numbers across tools, see attribution. For A/B test measurement, see ab-testing.
+description: "当用户要设置、改进或审计分析埋点与营销衡量时使用；英文触发词包括 GA4、GTM、event tracking、UTM、Mixpanel、Segment。归因模型参见 attribution，实验衡量参见 ab-testing。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 营销分析与埋点（中文执行导读）
+先从业务决策反推问题、转化和事件，再制定命名一致的 tracking plan、属性、身份和 QA 方案，最后说明报表、数据质量与维护责任。
+避免为了采集而采集，并遵守隐私与同意要求；保留事件名、参数、代码和工具配置原样，下方英文正文与 references 是权威契约。
 
 # Analytics Tracking
 

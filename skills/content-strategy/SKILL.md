@@ -1,9 +1,13 @@
 ---
 name: content-strategy
-description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content marketing," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.
+description: "当用户要决定应该创作什么内容、建立主题集群、编辑日历或内容路线图时使用；英文触发词包括 content strategy、topic clusters、content pillars。单篇文案参见 copywriting，SEO 审计参见 seo-audit，社交内容参见 social。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 内容策略（中文执行导读）
+先收集业务、受众、客户研究、现有内容和竞争格局，再区分可搜索与可分享内容，建立内容支柱、主题集群、买家阶段和优先级，最后形成可执行日历。
+策略应说明为什么做和如何衡量，而不仅是标题列表；保留关键词、URL、内容格式和指标原样，下方英文正文与 references 是权威契约。
 
 # Content Strategy
 

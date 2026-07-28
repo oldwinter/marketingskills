@@ -1,9 +1,13 @@
 ---
 name: programmatic-seo
-description: When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," "building many pages for SEO," "pSEO," "generate 100 pages," "data-driven pages," or "templated landing pages." Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.
+description: "当用户要用模板与数据规模化生成目录页、地点页、集成页、比较页等搜索页面时使用；英文触发词包括 programmatic SEO、pSEO、template pages、pages at scale。SEO 审计参见 seo-audit，内容策略参见 content-strategy。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 程序化 SEO（中文执行导读）
+先验证重复查询模式、搜索意图、独特数据和规模，再选择 playbook，定义模板、数据模型、URL、内链与质量门槛，并设计小批上线、索引监测和扩展条件。
+每页必须提供独立价值，禁止薄内容规模化；保留 URL pattern、schema、字段名和代码原样，下方英文正文与 references 是权威契约。
 
 # Programmatic SEO
 

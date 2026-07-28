@@ -1,9 +1,13 @@
 ---
 name: pricing
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, or wants to audit a pricing page (for humans and for the AI agents that shortlist tools). For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers."
+description: "当用户要决定价格、套餐、价值指标、免费试用、freemium 或审计定价页时使用；英文触发词包括 pricing tiers、Van Westendorp、willingness to pay、monetization。应用内升级参见 paywalls，完整 offer 参见 offers。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
+
+# 定价与包装（中文执行导读）
+先收集业务、客户价值、竞争、成本、现有表现和目标，再选择价值指标与套餐结构，设计定价研究和变更方案；审计页面时同时检查人类与 AI 可读性。
+把建议与证据强度绑定，不凭直觉给唯一价格；保留货币、周期、指标、研究方法和套餐名原样，下方英文正文与 references 是权威契约。
 
 # Pricing Strategy
 

@@ -1,9 +1,13 @@
 ---
 name: competitors
-description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement."
+description: "当用户要创建竞品比较页、替代方案页、vs 页面或竞争定位内容时使用；英文触发词包括 alternative page、vs page、comparison page、battle card。深度画像参见 competitor-profiling，销售材料参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 竞品比较与替代页（中文执行导读）
+先确定四种页面格式之一并收集可核验竞品事实，再围绕适配场景、差异、限制、证据和迁移路径构建模块化内容，最后补齐 SEO 与转化要素。
+诚实呈现对手优势，不编造比较；保留产品名、报价、功能术语和结构化字段原样，下方英文正文与 references 是权威契约。
 
 # Competitor & Alternative Pages
 

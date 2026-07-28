@@ -1,9 +1,13 @@
 ---
 name: launch
-description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers."
+description: "当用户要规划产品、功能、品牌或 Product Hunt 发布时使用；英文触发词包括 launch strategy、go-to-market launch、Product Hunt、announcement。发布合作参见 co-marketing，目录提交参见 directory-submissions。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
+
+# 产品发布（中文执行导读）
+先定义发布目标、受众、叙事、资产和成功指标，再按 ORB 与分阶段方法安排预热、发布日、放大和后续节奏，明确渠道、负责人、依赖和应急方案。
+把发布当持续运动而非单日事件；保留日期、平台规则、资产规格和追踪参数原样，下方英文正文与 references 是权威契约。
 
 # Launch Strategy
 

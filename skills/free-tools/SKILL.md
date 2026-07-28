@@ -1,9 +1,13 @@
 ---
 name: free-tools
-description: When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketing," "free tool," "marketing tool," "calculator," "generator," "interactive tool," "lead gen tool," "build a tool for leads," "free resource," "ROI calculator," "grader tool," "audit tool," "should I build a free tool," or "tools for lead gen." Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.
+description: "当用户要用计算器、生成器、检查器、模板或互动工具实现 engineering as marketing 时使用；英文触发词包括 free tool、calculator、generator、lead generation tool。相关边界参见下方正文。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 免费工具营销（中文执行导读）
+先从受众高频任务和搜索意图筛选工具机会，再评估独特价值、数据与工程成本，设计核心体验、结果页、分享与留资机制，最后制定分发和维护指标。
+工具必须先独立有用，再考虑获客；保留公式、输入输出字段、技术栈和 URL 原样，下方英文正文与 references 是权威契约。
 
 # Free Tool Strategy (Engineering as Marketing)
 

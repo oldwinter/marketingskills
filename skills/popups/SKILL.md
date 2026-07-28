@@ -1,9 +1,13 @@
 ---
 name: popups
-description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with a popup," "exit popup," "scroll trigger," "sticky bar," or "notification bar." Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.
+description: "当用户要创建或优化 popup、modal、overlay、slide-in、sticky bar 或 banner 时使用；英文触发词包括 exit intent、lead capture popup、announcement banner。页面与普通表单参见 cro。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 弹窗转化优化（中文执行导读）
+先确认目标、受众、页面、价值交换和基线，再选择时间、滚动、退出、点击或行为触发，设计消息、表单、关闭方式和频控，并提出可测变体。
+尊重用户注意力与关闭选择，避免遮挡关键任务；保留触发条件、字段、CSS/事件名和指标原样，下方英文正文与 references 是权威契约。
 
 # Popup CRO
 

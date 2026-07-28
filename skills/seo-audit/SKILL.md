@@ -1,9 +1,12 @@
 ---
 name: seo-audit
-description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.
+description: "当用户要审计、诊断或修复网站技术 SEO、索引、页面排名或流量下滑时使用，即使请求很模糊也应触发；英文触发词包括 SEO audit、crawl errors、Core Web Vitals。规模化建页参见 programmatic-seo，schema 参见 schema。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# SEO 审计（中文执行导读）
+先确认站点、目标市场、异常时间和数据权限，再按可抓取性、索引、速度、移动端、安全、URL、国际化与 on-page 顺序审计，最后按影响、证据和工作量排序问题。区分观察、推断和需工具验证的事项；保留 robots 指令、状态码、标签、URL 和指标原样，下方英文正文与 references 是权威契约。
 
 # SEO Audit
 

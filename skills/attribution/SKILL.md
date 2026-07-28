@@ -1,9 +1,13 @@
 ---
 name: attribution
-description: When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribution," "attribution model," "first-touch vs last-touch," "multi-touch," "which channel drives revenue," "what's my real CAC," "my dashboards disagree," "Google/Meta says X but GA says Y," "media mix model," "MMM," "incrementality," "geo lift," "holdout test," "how did you hear about us," "self-reported attribution," "dark social," or wants to instrument attribution themselves — "stitch my bookings to their source," "SavvyCal/Calendly attribution," "close the identify gap," "track conversions on a third-party domain," "first-party / self-hosted attribution." For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.
+description: "当用户要判断哪些营销活动真正带来转化与收入、选择归因模型或解释多工具数据冲突时使用；英文触发词包括 attribution、multi-touch、MMM、incrementality、dark social。埋点参见 analytics，CRM 收入参见 revops。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
+
+# 营销归因（中文执行导读）
+先分清业务决策、数据源和身份链路，再比较平台归因、多触点、MMM、增量实验与自报归因的适用范围；需要自建时设计第一方 identity graph 与转化拼接。
+明确归因能回答和不能回答的问题，不把平台自报当真值；保留模型名、事件、UTM、代码和第三方域名原样，下方英文正文与 references 是权威契约。
 
 # Attribution
 

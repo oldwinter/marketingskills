@@ -1,9 +1,13 @@
 ---
 name: product-marketing
-description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context."
+description: "当用户要创建或更新产品定位、ICP、受众、差异化和基础营销上下文时使用；英文触发词包括 positioning、product context、ideal customer profile。新项目在调用其他营销 Skill 前优先使用本 Skill。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
+
+# 产品营销上下文（中文执行导读）
+先检查 `.agents/product-marketing.md` 是否存在并只补充缺口，再收集产品、目标受众、问题、替代方案、差异、异议、切换动力和客户语言，最后写入可复用上下文文档。
+不要未经确认改写产品事实；保留路径、产品名、引用和字段结构原样，下方英文正文与 references 是权威契约。
 
 # Product Marketing Context
 

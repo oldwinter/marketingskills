@@ -1,9 +1,13 @@
 ---
 name: revops
-description: "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
+description: "当用户要设计收入运营、lead lifecycle、MQL/SQL、lead scoring、routing、CRM 自动化或营销销售交接时使用；英文触发词包括 RevOps、pipeline stages、data hygiene。外联参见 cold-email，定价参见 pricing。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 收入运营（中文执行导读）
+先统一生命周期定义、数据源与责任，再设计评分、路由、SLA、pipeline 阶段、自动化和异常处理，并建立每个交接点的质量与收入指标。
+先定义再自动化，保持单一事实来源；保留 CRM 字段、状态、SLA、公式和集成名原样，下方英文正文与 references 是权威契约。
 
 # RevOps
 

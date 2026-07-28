@@ -1,9 +1,13 @@
 ---
 name: marketing-council
-description: "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
+description: "当用户要用多位真实营销专家的独立视角评审策略、挑战方案或形成共识时使用；英文触发词包括 marketing council、expert panel、what would experts say。具体战术仍应参见对应营销 Skill。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
+
+# 营销顾问委员会（中文执行导读）
+先定义问题、决策和所需视角，再按领域选择成员，分别给出基于其公开框架的独立意见；随后主持交叉质询、识别分歧与共识，并形成可执行结论。
+不要捏造专家原话或把合成观点冒充背书；保留人名、书名、框架名和引用来源原样，下方英文正文与 references 是权威契约。
 
 # Marketing Council
 

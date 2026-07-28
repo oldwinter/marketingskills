@@ -1,9 +1,13 @@
 ---
 name: directory-submissions
-description: When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions "directory submissions," "submit to directories," "backlinks from directories," "list my product," "submit to Product Hunt," "BetaList," "TAAFT," "Futurepedia," "G2 listing," "Capterra listing," "AlternativeTo," "SaaSHub," "AI directories," "MCP registry," "agent directory," "dofollow backlinks," "launch directories," or "directory tracker." Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.
+description: "当用户要把初创公司、SaaS 或 AI 产品提交到目录、榜单与发布平台时使用；英文触发词包括 directory submission、Product Hunt、startup directories、AI directories。发布总策略参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 目录提交（中文执行导读）
+先准备统一且真实的产品资料包，再按受众质量、权威性和工作量筛选目录，规划 Product Hunt 等锚点事件与提交节奏，并记录账号、状态、链接和后续动作。
+禁止批量提交低质量目录或制造虚假评价；保留平台字段、URL、标签和账号要求原样，下方英文正文与 references 是权威契约。
 
 # Directory Submissions
 

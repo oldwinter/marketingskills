@@ -1,9 +1,13 @@
 ---
 name: marketing-ideas
-description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.)."
+description: "当用户要为 SaaS 获取营销点子、渠道灵感或按目标筛选策略时使用；英文触发词包括 marketing ideas、growth ideas、ways to market、what should we try。完整计划参见 marketing-plan。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# SaaS 营销创意库（中文执行导读）
+先确认产品阶段、受众、资源、目标和约束，再从分类创意库筛选少量适配方案，说明为什么适合、前置条件、第一步、指标和停止条件，而不是倾倒完整清单。
+优先可执行性与渠道适配，不把点子当战略；保留创意编号、渠道名、工具名和指标原样，下方英文正文与 references 是权威契约。
 
 # Marketing Ideas for SaaS
 

@@ -1,9 +1,13 @@
 ---
 name: ai-seo
-description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' or 'agent-readable site.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema."
+description: "当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率或品牌提及时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、AI Overviews、llms.txt。传统 SEO 参见 seo-audit，结构化数据参见 schema。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
+
+# AI 搜索优化（中文执行导读）
+先审计重点查询、现有引用和竞争来源，再优化可抽取答案、实体一致性、证据、原创数据与机器可读入口，最后建立跨平台可见度监测。
+不要把任何单一平台技巧包装成保证收录；保留 schema、文件名、查询和产品名原样，下方英文正文与 references 是权威契约。
 
 # AI SEO
 

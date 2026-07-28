@@ -1,9 +1,13 @@
 ---
 name: churn-prevention
-description: "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls."
+description: "当用户要降低主动或非主动流失、设计取消流程、挽留方案、催收或召回策略时使用；英文触发词包括 churn、cancel flow、save offer、dunning、win-back。召回邮件参见 emails，升级墙参见 paywalls。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
+
+# 流失预防（中文执行导读）
+先量化流失类型、原因、分群、计费环境和产品使用信号，再设计取消调查、动态挽留、预警干预、支付恢复与持续实验，并定义留存指标。
+不以阻挠取消换取短期指标，确保取消路径清晰合规；保留计费状态、指标和平台术语原样，下方英文正文与 references 是权威契约。
 
 # Churn Prevention
 
