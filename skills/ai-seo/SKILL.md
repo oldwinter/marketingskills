@@ -259,6 +259,7 @@ AI systems don't just cite your website — they cite where you appear.
 - Industry publications and guest posts
 - Review sites (G2, Capterra, TrustRadius for B2B SaaS)
 - YouTube (frequently cited by Google AI Overviews)
+- Podcasts (episodes get transcribed, show notes published — both get crawled and cited)
 - Quora answers
 
 **Actions:**
@@ -266,7 +267,8 @@ AI systems don't just cite your website — they cite where you appear.
 - Participate authentically in Reddit communities
 - Get featured in industry roundups and comparison articles
 - Maintain updated profiles on relevant review platforms
-- Create YouTube content for key how-to queries
+- Create YouTube content for key how-to queries — models don't watch the video, they read the text layer around it; see [references/youtube-ai-citations.md](references/youtube-ai-citations.md) for the full anatomy (transcript, captions, chapters, description, pinned comment)
+- Guest on podcasts in your category (prep with the public-relations skill's podcast guest prep)
 - Answer relevant Quora questions with depth
 
 ### Machine-Readable Files for AI Agents

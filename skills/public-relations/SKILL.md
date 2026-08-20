@@ -62,6 +62,8 @@ Four modes. Most teams over-index on one. Run at least three.
 
 **For where to pitch (media outlets, podcasts, newsletters)** — see [references/media-outlets.md](references/media-outlets.md). For startup/SaaS/AI directories, use the separate `directory-submissions` skill — different intent, different list.
 
+**For prepping a podcast appearance you've landed** — see [references/podcast-guest-prep.md](references/podcast-guest-prep.md). Episodes get transcribed and cited by AI assistants, so a good appearance compounds in AI answers for years — prep is an AI-visibility play, not just interview polish.
+
 ---
 
 ## Owned: Press Page + Media Kit
@@ -130,6 +132,9 @@ Combine: recent product milestones + active news cycles + any data you've collec
 
 ### "Respond to this HARO query"
 Go to [press-platforms.md](references/press-platforms.md), use the response template, keep it under 200 words.
+
+### "I'm going on [podcast] next week — help me prep"
+Go to [podcast-guest-prep.md](references/podcast-guest-prep.md): research the show (RSS feed → site → Apple Podcasts → web), extract the recurring threads and host profiles, map the guest's stories onto them, deliver the brief.
 
 ### "Build my press page"
 Use the checklist above. Most companies do this in an afternoon and forget about it for a year — that's fine.

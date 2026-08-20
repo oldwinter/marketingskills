@@ -6,17 +6,17 @@
 |-------|---------|--------------|
 | ab-testing | 2.1.0 | 2026-07-28 |
 | ad-creative | 2.9.0 | 2026-07-28 |
-| ai-seo | 2.3.0 | 2026-07-28 |
+| ai-seo | 2.3.0 | 2026-08-20 |
 | analytics | 2.1.0 | 2026-07-28 |
-| aso | 2.1.0 | 2026-07-28 |
+| aso | 2.1.0 | 2026-08-20 |
 | attribution | 1.2.0 | 2026-07-28 |
 | churn-prevention | 2.1.0 | 2026-07-28 |
 | co-marketing | 2.1.0 | 2026-07-28 |
 | cold-email | 2.1.0 | 2026-07-28 |
 | community-marketing | 2.1.0 | 2026-07-28 |
-| competitor-profiling | 2.1.0 | 2026-07-28 |
+| competitor-profiling | 2.1.0 | 2026-08-20 |
 | competitors | 2.1.0 | 2026-07-28 |
-| content-strategy | 2.1.0 | 2026-07-28 |
+| content-strategy | 2.1.0 | 2026-08-20 |
 | copy-editing | 2.1.0 | 2026-07-28 |
 | copywriting | 2.1.0 | 2026-07-28 |
 | cro | 2.1.0 | 2026-07-28 |
@@ -25,7 +25,7 @@
 | emails | 2.1.0 | 2026-07-28 |
 | free-tools | 2.1.0 | 2026-07-28 |
 | image | 2.1.0 | 2026-07-28 |
-| influencer-marketing | 1.1.0 | 2026-07-28 |
+| influencer-marketing | 1.1.0 | 2026-08-20 |
 | launch | 2.1.0 | 2026-07-28 |
 | lead-magnets | 2.1.0 | 2026-07-28 |
 | marketing-council | 1.1.0 | 2026-07-28 |
@@ -42,12 +42,12 @@
 | product-marketing | 2.2.0 | 2026-07-28 |
 | programmatic-seo | 2.1.0 | 2026-07-28 |
 | prospecting | 1.2.0 | 2026-07-28 |
-| public-relations | 1.1.0 | 2026-07-28 |
+| public-relations | 1.1.0 | 2026-08-20 |
 | referrals | 2.1.0 | 2026-07-28 |
 | revops | 2.1.0 | 2026-07-28 |
 | sales-enablement | 2.1.0 | 2026-07-28 |
 | schema | 2.1.0 | 2026-07-28 |
-| seo-audit | 2.1.0 | 2026-07-28 |
+| seo-audit | 2.1.0 | 2026-08-20 |
 | signup | 2.1.0 | 2026-07-28 |
 | site-architecture | 2.1.0 | 2026-07-28 |
 | sms | 1.1.0 | 2026-07-28 |
@@ -55,6 +55,11 @@
 | video | 2.2.0 | 2026-07-28 |
 
 ## Recent Changes
+
+### 上游同步（2026-08-20）
+
+- 吸收 `ads`、`ai-seo`、`content-strategy`、`influencer-marketing`、`public-relations` 和 `seo-audit` 的上游正文与 references 更新，并保留全部 49 个中文运行时入口。
+- `VERSIONS.md` 中的版本号继续与每个 `SKILL.md` 的 `metadata.version` 一致；本次变更是上游内容同步，不虚构新的版本号。
 
 ### 2.10.1 (2026-07-28)
 
