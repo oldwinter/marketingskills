@@ -2,7 +2,7 @@
 name: referrals
 description: "当用户要创建、优化或分析客户推荐、affiliate、ambassador 或口碑增长计划时使用；英文触发词包括 refer a friend、viral loop、affiliate payout。发布期传播参见 launch，影响者合作参见 influencer-marketing。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 推荐与联盟计划（中文执行导读）
@@ -39,6 +39,20 @@ Gather this context (ask if not provided):
 ### 4. Resources
 - Tools/platforms you use or consider?
 - Budget for referral incentives?
+
+---
+
+## Should You Engineer Virality First?
+
+Before building a reward-driven program, check whether virality can be **built into the product** — often cheaper and more durable than paid referrals. But **don't force virality where it doesn't naturally fit.**
+
+Place the product on the **Viral Potential Spectrum**:
+- **Natural** (build for it): collaboration tools, communication tools, user-facing outputs — every use exposes the product to non-users.
+- **Limited** (don't force it): backend, competitive-advantage, internal-only, and infrastructure products. Invest in referral programs, content, and partnerships instead.
+
+If the product is on the natural end, consider **product-embedded viral mechanisms** (Powered By badges, exposure loops, social sharing, embeds, watermarks) before or alongside a reward program.
+
+**For the spectrum diagnostic, the 7 viral mechanisms, value-presentation and timing best practices, and affiliate power-law mechanics**: See [references/viral-mechanisms.md](references/viral-mechanisms.md)
 
 ---
 
@@ -103,7 +117,11 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 **Tiered rewards**: Gamifies referral process, increases engagement
 
+**Present the reward with the bigger-*feeling* number** — "lead with the larger number" (say "$10 off," not "40% off," on a low-priced product). Reward at the **aha moment or milestone**, not signup. Reduce friction: one-click share, pre-written messages.
+
 **For examples and incentive sizing**: See [references/program-examples.md](references/program-examples.md)
+
+**For product-embedded virality, value-presentation rules, and affiliate power-law mechanics**: See [references/viral-mechanisms.md](references/viral-mechanisms.md)
 
 ---
 
@@ -223,6 +241,8 @@ They get [their reward] too.
 ## Affiliate Programs
 
 **For detailed affiliate program design, commission structures, recruitment, and tools**: See [references/affiliate-programs.md](references/affiliate-programs.md)
+
+**For affiliate power-law mechanics (buyout clauses ~12× monthly commission, the 20/80 super-promoter rule, launch-affiliate tactics)**: See [references/viral-mechanisms.md](references/viral-mechanisms.md)
 
 ---
 

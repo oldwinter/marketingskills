@@ -2,7 +2,7 @@
 name: marketing-ideas
 description: "当用户要为 SaaS 获取营销点子、渠道灵感或按目标筛选策略时使用；英文触发词包括 marketing ideas、growth ideas、ways to market、what should we try。完整计划参见 marketing-plan。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # SaaS 营销创意库（中文执行导读）
@@ -42,13 +42,16 @@ When asked for marketing ideas:
 | Launches | 77-86 | Product Hunt, Lifetime deals, Giveaways |
 | Product-Led | 87-96 | Viral loops, Powered-by marketing, Free migrations |
 | Content Formats | 97-109 | Podcasts, Courses, Annual reports, Year wraps |
-| Unconventional | 110-122 | Awards, Challenges, Guerrilla marketing |
+| Unconventional | 110-122 | Awards, Challenges, [Guerrilla marketing](references/guerrilla-marketing.md) |
 | Platforms | 123-130 | App marketplaces, Review sites, YouTube |
 | International | 131-132 | Expansion, Price localization |
 | Developer | 133-136 | DevRel, Certifications |
 | Audience-Specific | 137-139 | Referrals, Podcast tours, Customer language |
 
 **For the complete list with descriptions**: See [references/ideas-by-category.md](references/ideas-by-category.md)
+
+**Deep dives** (full framework + case library for a single idea):
+- **Guerrilla marketing (#121)**: [references/guerrilla-marketing.md](references/guerrilla-marketing.md) — the direct-mail 3-rule framework (relevance / relationship-building / precision targeting), ROI discipline, "think in stories, not campaigns," "test small before going big," and a named case library (WePay, Xero, Red Bull, Antimetal, Arrows, ProfitWell, Buzzsprout, Wistia).
 
 ---
 

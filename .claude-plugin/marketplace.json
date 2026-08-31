@@ -6,12 +6,13 @@
   },
   "metadata": {
     "description": "面向 AI Agent 的中文营销 Skills：转化优化、文案、SEO、付费广告与增长",
-    "version": "2.10.1"
+    "version": "2.11.0",
+    "repository": "https://github.com/oldwinter/marketingskills"
   },
   "plugins": [
     {
       "name": "marketing-skills",
-      "description": "面向技术营销人员与创始人的 49 marketing skills，提供中文触发说明和执行导读，覆盖 CRO、文案、冷邮件、SEO、广告、定价、留存、RevOps、AARRR 营销计划等工作流",
+      "description": "面向技术营销人员与创始人的 50 marketing skills，提供中文触发说明和执行导读，覆盖 CRO、文案、冷邮件、SEO、广告、定价、留存、RevOps、AARRR 营销计划、活动营销等工作流",
       "source": "./"
     }
   ]

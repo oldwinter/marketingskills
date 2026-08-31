@@ -1,8 +1,8 @@
-> **中文 fork 提示：** 本仓库是 [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) 的非官方中文 fork，当前同步上游 commit 为 `c6ea12834be62bdc4180a1385f6455cde84ae60c`。
+> **中文 fork 提示：** 本仓库是 [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) 的非官方中文 fork，当前同步上游 commit 为 `e55de886fe7580ec75cdb7ded5092b33f7d4ed58`。
 
 # Marketing Skills 中文版
 
-这是一套面向 AI Agent 的营销 Skill 集合，覆盖转化优化、文案、SEO、付费广告、分析、增长、留存、销售赋能和市场策略。本 fork 为全部 49 个运行时 Skill 增加中文触发说明与中文执行导读，同时保留上游英文正文和 `references/` 作为精确技术契约。
+这是一套面向 AI Agent 的营销 Skill 集合，覆盖转化优化、文案、SEO、付费广告、分析、增长、留存、销售赋能、活动营销和市场策略。本 fork 为全部 50 个运行时 Skill 增加中文触发说明与中文执行导读，同时保留上游英文正文和 `references/` 作为精确技术契约。
 
 ## 安装中文版
 
@@ -58,6 +58,16 @@ New to the terminal and coding agents? Check out the companion guide [Coding for
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
 Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
+
+## Partners
+
+The library is free and MIT-licensed. [Verified Partners](tools/REGISTRY.md#verified-partners) fund the work — vetted, disclosed tool integrations, listed alongside the neutral options and never influencing what the core skills recommend. The full rules and boundaries are in [tools/PARTNERS.md](tools/PARTNERS.md). [Become a partner →](https://marketing-skills.com/sponsorship)
+
+<!-- PARTNERS:START -->
+_No active partners yet. [Become a partner →](https://marketing-skills.com/sponsorship)_
+<!-- PARTNERS:END -->
+
+<!-- The Partners block above is generated from partners.json — run `node scripts/sync-partners.mjs` after editing it. -->
 
 ## What are Skills?
 
@@ -125,6 +135,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [customer-research](skills/customer-research/) | 当用户要规划客户研究、分析访谈/评价/工单等现有资料，或从线上聚集地提炼客户语言时使用；英文触发词包括 customer research、VOC、interview analysis、pain points。相关范围参见下方正文。... |
 | [directory-submissions](skills/directory-submissions/) | 当用户要把初创公司、SaaS 或 AI 产品提交到目录、榜单与发布平台时使用；英文触发词包括 directory submission、Product Hunt、startup directories、AI... |
 | [emails](skills/emails/) | 当用户要设计或优化欢迎、培育、激活、促销、流失预防、召回等邮件序列时使用；英文触发词包括 email sequence、drip campaign、lifecycle email、welcome flow。冷外联参见... |
+| [events](skills/events/) | 当用户要规划、执行、赞助、演讲或从活动获取 pipeline 时使用，包括 webinars、conference、trade show、meetup、dinner、workshop、virtual summit 和 user... |
 | [free-tools](skills/free-tools/) | 当用户要用计算器、生成器、检查器、模板或互动工具实现 engineering as marketing 时使用；英文触发词包括 free tool、calculator、generator、lead generation... |
 | [image](skills/image/) | 当用户要生成、编辑或制作营销图像、产品图、社交图、缩略图或视觉资产时使用；英文触发词包括 AI image、image generation、product screenshot、social graphic。视频参见... |
 | [influencer-marketing](skills/influencer-marketing/) | 当用户要寻找、筛选、联系或管理影响者、创作者和品牌大使合作时使用；英文触发词包括 influencer marketing、creator partnership、ambassador、UGC。联合营销参见... |
@@ -341,6 +352,7 @@ You can also invoke skills directly:
 
 ### Paid & Distribution
 - `ads` - Google, Meta, LinkedIn ad campaigns
+- `events` - Webinars, conferences, sponsorships, speaking
 - `ad-creative` - Bulk ad creative generation and iteration
 - `social` - Social media scheduling and strategy
 

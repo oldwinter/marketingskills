@@ -2,7 +2,7 @@
 name: community-marketing
 description: "当用户要创建或发展 Discord、Slack、论坛、subreddit、品牌倡导者或社区驱动增长体系时使用；英文触发词包括 community strategy、community-led growth、ambassador program。相关边界参见下方正文。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 社区营销（中文执行导读）
@@ -99,6 +99,18 @@ Design for the flywheel from day one. Every decision should ask: *Does this acce
 2. **Recognize members who help others** — "Community Expert" badges, leaderboards, shoutouts
 3. **Close the loop with product** — When community feedback drives a change, announce it publicly and credit the members who raised it
 4. **Monitor sentiment weekly** — Look for patterns in complaints or confusion before they become churn signals
+
+---
+
+## Community Models & Scaling Phases
+
+Before picking tactics, pick the **shape** of the community and match your effort to its stage. See **`references/community-models.md`** for:
+
+- **The 5 community models** — Support-Driven (GreenPal), Product-Development (Ydata), Education/Enablement (LiveAgent), Founder-Led (Bento, Postaga) — each with a "best when…" fit test tied to a primary goal.
+- **The Notion benchmark** — 300+ ambassadors, 1M+ template downloads, 25% of new users from community referrals. The north star for community-led growth at scale.
+- **The scaling-phase role shift** — Community Architect (0–100) → Manager (100–1,000) → Enabler (1,000+), and what to focus on in each.
+
+Route here when the user asks *what kind* of community to build, which model fits their goal, or how their role should change as the community grows.
 
 ---
 

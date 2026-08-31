@@ -2,7 +2,7 @@
 name: free-tools
 description: "当用户要用计算器、生成器、检查器、模板或互动工具实现 engineering as marketing 时使用；英文触发词包括 free tool、calculator、generator、lead generation tool。相关边界参见下方正文。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 免费工具营销（中文执行导读）
@@ -29,6 +29,8 @@ Before designing a tool strategy, understand:
 ---
 
 ## Core Principles
+
+**"Your product is my marketing opportunity."** Bezos said "your margin is my opportunity." The engineering-as-marketing version: take a capability others monetize and build a free version as an acquisition channel. Unsplash gave away the stock photos Getty sold — and Getty acquired it. See [references/tool-benchmarks.md](references/tool-benchmarks.md) for named cases and conversion numbers.
 
 ### 1. Solve a Real Problem
 - Tool must provide genuine value
@@ -62,6 +64,8 @@ Before designing a tool strategy, understand:
 | Interactive | Tutorials, playgrounds, quizzes | Learning/understanding |
 
 **For detailed tool types and examples**: See [references/tool-types.md](references/tool-types.md)
+
+**For named case benchmarks (Unsplash, HubSpot Website Grader, Moz, Buffer, Shopify) with real conversion numbers**: See [references/tool-benchmarks.md](references/tool-benchmarks.md)
 
 ---
 
@@ -173,6 +177,13 @@ Rate each factor 1-5:
 4. What's the timeline and budget?
 
 ---
+
+## Common Pitfalls
+
+- **Over-engineering** — Shipping a bloated tool when the winning cases were tiny (Unsplash: 3 hrs; Website Grader: 2 engineers, 2 weeks). Scope to the one job.
+- **Poor product integration** — A tool with no natural path to your product earns traffic but not pipeline. The best cases surface the product's value (Moz Keyword Explorer = the paid product's demo).
+- **Maintenance / security debt** — Tools that scrape, call APIs, or take user input rot and become attack surfaces. Budget for upkeep before you build.
+- **Vanity metrics** — Visitors and usage feel good but don't pay. Track leads, qualification rate, and trial/signup conversion — the numbers the case library reports.
 
 ## Related Skills
 

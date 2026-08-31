@@ -2,7 +2,7 @@
 name: co-marketing
 description: "当用户要寻找联合营销伙伴、规划共同活动或构思合作机会时使用；英文触发词包括 co-marketing、partner marketing、joint campaign、cross-promotion。客户推荐参见 referrals，发布合作参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 联合营销（中文执行导读）
@@ -80,6 +80,26 @@ Rate potential partners (1-5) on:
 - Customer surveys ("what else do you use?")
 - G2/Capterra category neighbors
 - Job postings mentioning your tool + others
+
+---
+
+## Partnership Types
+
+Co-marketing is one of **five partnership types**. Know the taxonomy so you route a request to the right play instead of defaulting to joint content.
+
+| Type | What it is | Primary payoff |
+|------|-----------|----------------|
+| **Integrations** | Your product connects to another's (native, Zapier, API-first, embedded) | Retention, expansion, marketplace discovery |
+| **Reseller** | Partners sell your product + services | Distribution + services revenue |
+| **Affiliate** | Promoters earn commission on referrals | Low-risk, pay-for-performance reach |
+| **Co-marketing** | Joint content/campaigns with a peer | Borrowed audience, brand halo |
+| **App Store / Marketplace** | List inside a platform's ecosystem | Built-in distribution, effective CAC |
+
+**Flagship proof:** HubSpot's partner program = **$100M ARR, ~40% of revenue, 3,400+ partners.** Mature programs average **~28% of revenue and 2× growth**.
+
+Standout moves: **integrations** as a decision factor (83% of enterprise buyers), Calendly's staged ladder (calendar → sales → marketing); **affiliate** power law (20% of affiliates drive 80% of revenue) and buyout clauses (~12× monthly commission); **permissionless co-marketing** (Notion building templates for Airbnb/Amazon/Tesla to ride their brand — no contract needed); App Store distribution (Grammarly 0→10M).
+
+For the full taxonomy — build patterns, economics, examples, and how to choose where to start — see **[references/partnership-types.md](references/partnership-types.md)**. (Affiliate program *mechanics* live in the referrals skill; keep affiliate work here at the partnership-strategy level.)
 
 ---
 
