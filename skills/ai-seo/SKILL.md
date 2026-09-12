@@ -1,6 +1,6 @@
 ---
 name: ai-seo
-description: "当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率或品牌提及时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、AI Overviews、llms.txt。传统 SEO 参见 seo-audit，结构化数据参见 schema。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率或品牌提及时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、answer engine optimization、generative engine optimization、LLM optimization、AI Overviews、optimize for ChatGPT、optimize for Perplexity、AI citations、AI visibility、zero-click search、llms.txt、llms-full.txt、OKF、Open Knowledge Format、knowledge bundle、agent-readable site、agent readiness、is my site agent-ready、WebMCP、do listicles still work for AI、ChatGPT stopped citing comparison pages、AI citation format shift。传统 SEO 参见 seo-audit，结构化数据参见 schema。Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
   version: 2.4.0
 ---

@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "面向 AI Agent 的中文营销 Skills：转化优化、文案、SEO、付费广告与增长",
-    "version": "2.11.0",
+    "version": "2.11.1",
     "repository": "https://github.com/oldwinter/marketingskills"
   },
   "plugins": [
