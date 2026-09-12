@@ -120,7 +120,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [ab-testing](skills/ab-testing/) | 当用户要规划、设计或实施 A/B 测试、对照实验或增长实验体系时使用；英文触发词包括 A/B test、split test、hypothesis、statistical significance。埋点实现参见... |
 | [ad-creative](skills/ad-creative/) | 当用户要生成、迭代或规模化广告标题、正文、视觉概念或完整变体时使用；英文触发词包括 ad creative、RSA headlines、Facebook ad copy、creative testing。投放策略参见... |
 | [ads](skills/ads/) | 当用户要规划或优化 Google Ads、Meta、LinkedIn、X 等付费广告时使用；英文触发词包括 PPC、ROAS、CPA、retargeting、Performance Max、ABM。批量创意参见... |
-| [ai-seo](skills/ai-seo/) | 当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率或品牌提及时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、AI Overviews、llms.txt。传统 SEO 参见 seo-audit，结构化数据参见... |
+| [ai-seo](skills/ai-seo/) | 当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率或品牌提及时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、answer engine optimization、generative engine... |
 | [analytics](skills/analytics/) | 当用户要设置、改进或审计分析埋点与营销衡量时使用；英文触发词包括 GA4、GTM、event tracking、UTM、Mixpanel、Segment。归因模型参见 attribution，实验衡量参见 ab-testing。 Use... |
 | [aso](skills/aso/) | 当用户提供 App Store 或 Google Play 页面并要审计或提升可见度、排名与下载转化时使用；英文触发词包括 ASO audit、app store optimization、listing... |
 | [attribution](skills/attribution/) | 当用户要判断哪些营销活动真正带来转化与收入、选择归因模型或解释多工具数据冲突时使用；英文触发词包括 attribution、multi-touch、MMM、incrementality、dark social。埋点参见... |
