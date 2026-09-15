@@ -1,4 +1,4 @@
-> **中文 fork 提示：** 本仓库是 [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) 的非官方中文 fork，当前同步上游 commit 为 `e55de886fe7580ec75cdb7ded5092b33f7d4ed58`。
+> **中文 fork 提示：** 本仓库是 [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) 的非官方中文 fork，当前同步上游 commit 为 `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`。
 
 # Marketing Skills 中文版
 

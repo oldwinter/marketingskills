@@ -6,7 +6,7 @@
 
 - 上游项目：`coreyhaines31/marketingskills`
 - 中文 fork：`oldwinter/marketingskills`
-- 当前同步上游 commit：`e55de886fe7580ec75cdb7ded5092b33f7d4ed58`
+- 当前同步上游 commit：`5b2c0007766c6a1cf1d53fd8fc73e979e0821022`
 - 上游许可：MIT
 - 主要安装面：skills CLI、Claude Code plugin marketplace、直接 clone
 - 目标用户：使用中文与 AI Agent 完成营销工作的技术营销人员、创始人与增长团队
@@ -29,7 +29,7 @@
 - 任一 `SKILL.md` 发生可交付变更时，按上游规则提升该 Skill 的 `metadata.version`，并同步 `VERSIONS.md`。
 - 中文触发与执行能力属于新能力，本次全部 50 个 Skill 提升 minor 版本；新增 `events` 依据上游 `1.0.0` 提升为中文运行时 `1.1.0`。
 - `.claude-plugin/plugin.json` 与 `.claude-plugin/marketplace.json` 的仓库版本保持一致。
-- 首次中文化发布版本为 `2.10.1`，本批同步基线为上游 `e55de886fe7580ec75cdb7ded5092b33f7d4ed58`。
+- 首次中文化发布版本为 `2.10.1`，本批同步基线为上游 `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`。
 
 ## 安装与交付
 
