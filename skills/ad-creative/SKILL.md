@@ -2,12 +2,13 @@
 name: ad-creative
 description: "当用户要生成、迭代或规模化广告标题、正文、视觉概念或完整变体时使用；英文触发词包括 ad creative、RSA headlines、Facebook ad copy、creative testing。投放策略参见 ads，落地页文案参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.9.1
+  version: 2.9.2
 ---
 
 # 广告创意（中文执行导读）
 先确认平台、版位、受众、产品、offer、约束与已有表现数据，再选择从零生成、基于数据迭代、静态批量或创意策略循环，并按平台规格交付可测试变体。
 区分已验证事实与创意假设，不虚构产品证据；保留平台字段、字符限制、素材规格和提示词原样，下方英文正文与 references 是权威契约。
+生成创意审阅页时，说明页面会跟随系统明暗色模式、保留平台 feed 的浅色外观，并支持跳转链接、键盘方向键切换标签和可见焦点环。
 
 # Ad Creative
 
@@ -334,7 +335,7 @@ Per-concept format is defined in [references/static-ad-templates.md](references/
 
 ### Creative Review Page (client / stakeholder approval)
 
-When a person who isn't you needs to review and pick — a client, a partner, a stakeholder — produce a **creative review page**: a self-contained HTML artifact that presents each concept as an in-feed platform mockup (Instagram/Facebook, with a whitelist-handle toggle), breaks carousels into a labeled frame-by-frame storyboard, lets them toggle headline/copy variations, and discloses what's grounded in real assets. It's the visual upgrade to INDEX.md — a decision made off one link instead of by reading markdown. The template ships at [assets/creative-review-template.html](assets/creative-review-template.html) (one file, no build, hostable anywhere); populate its `DATA` object from your generated concepts. Full data model, grounding rules (the disclosure block is required), and delivery in [references/creative-review-page.md](references/creative-review-page.md).
+When a person who isn't you needs to review and pick — a client, a partner, a stakeholder — produce a **creative review page**: a self-contained HTML artifact that presents each concept as an in-feed platform mockup (Instagram/Facebook, with a whitelist-handle toggle), breaks carousels into a labeled frame-by-frame storyboard, lets them toggle headline/copy variations, and discloses what's grounded in real assets. It's the visual upgrade to INDEX.md — a decision made off one link instead of by reading markdown. The template ships at [assets/creative-review-template.html](assets/creative-review-template.html) (one file, no build, hostable anywhere); populate its `DATA` object from your generated concepts. Page chrome follows the reviewer's color scheme; the feed mock stays platform-light; keyboard users get a skip link, tablist arrows, and a visible focus ring. Full data model, grounding rules (the disclosure block is required), and delivery in [references/creative-review-page.md](references/creative-review-page.md).
 
 ### Iteration Report
 

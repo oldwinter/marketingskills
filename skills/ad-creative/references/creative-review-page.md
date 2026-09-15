@@ -4,6 +4,8 @@ A shareable, self-contained web page that presents generated ad concepts for a c
 
 The template ships at [assets/creative-review-template.html](../assets/creative-review-template.html). It's one file — inline CSS and JS, no build, no dependencies, no network. Open it locally, host it on any static host (Vercel/Netlify/GitHub Pages), or hand off the `.html` file directly.
 
+Page chrome (background, concept tabs, storyboard, copy panel) follows `prefers-color-scheme`. The in-feed Instagram/Facebook mock stays in platform chrome so the approval view matches the live placement. A skip link jumps to the preview. Concept tabs are a keyboard tablist (arrows, Home, End) with a visible focus ring.
+
 ## When to produce one
 
 - **Presenting a batch for approval** — after Mode 1 or Mode 3 generation, package the top concepts into a review page instead of (or alongside) `INDEX.md`. Picking 5 of 50 is a *visual* decision; a client shouldn't have to read markdown to make it.
@@ -92,7 +94,7 @@ The `DATA` lives in a `<script type="application/json" id="review-data">` block 
 
 1. Copy `assets/creative-review-template.html` into the batch's output folder as `review.html` (e.g. `outputs/YYYY-MM-DD/review.html`).
 2. Replace the `DATA` object with the real project — concepts, frames, copy, grounding. Populate `image` paths for any frames you've rendered (keep them relative to the html file so the folder stays portable).
-3. Verify it renders: open it in a browser, click through every concept tab, both platform and handle toggles, and each frame in the storyboard.
+3. Verify it renders: open it in a browser, click through every concept tab, both platform and handle toggles, and each frame in the storyboard. Tab to the skip link, move between concept tabs with the arrow keys, and confirm a focus ring. If the OS is in dark mode, the page chrome should follow it while the feed mock stays light.
 4. Deliver: hand off the folder (html + `images/`), or host it. For a client link, `vercel deploy` or any static host works — it's a single page with local assets.
 
 Keep the review page next to the markdown outputs, not instead of them: `INDEX.md` and the per-concept files remain the operator's record and the grounding audit trail; `review.html` is the approval surface built on top.
