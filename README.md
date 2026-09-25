@@ -57,7 +57,7 @@ New to the terminal and coding agents? Check out the companion guide [Coding for
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
-Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
+Run into a problem or have a question? [Open an issue](https://github.com/oldwinter/marketingskills/issues) — we're happy to help. Upstream source of record: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills).
 
 ## Partners
 
@@ -171,19 +171,21 @@ See each skill's **Related Skills** section for the full dependency map.
 
 ## Installation
 
+This fork's copy-paste install source is `oldwinter/marketingskills`. [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) is the upstream attribution, not the command to copy.
+
 ### Option 1: CLI Install (Recommended)
 
 Use [npx skills](https://github.com/vercel-labs/skills) to install skills directly:
 
 ```bash
 # Install all skills
-npx skills add coreyhaines31/marketingskills
+npx skills add oldwinter/marketingskills
 
 # Install specific skills
-npx skills add coreyhaines31/marketingskills --skill cro copywriting
+npx skills add oldwinter/marketingskills --skill cro copywriting
 
 # List available skills
-npx skills add coreyhaines31/marketingskills --list
+npx skills add oldwinter/marketingskills --list
 ```
 
 The CLI detects which agents you have installed and asks where to install. For Claude Code it installs into `.claude/skills/`; universal agents share `.agents/skills/`.
@@ -192,7 +194,7 @@ The CLI detects which agents you have installed and asks where to install. For C
 > If you run the command from **inside** an agent session (e.g., asking Claude Code to install the skills for you), the CLI runs non-interactively and may only install to the universal `.agents/skills/` directory, which Claude Code does not read. Pass the agent explicitly:
 >
 > ```bash
-> npx skills add coreyhaines31/marketingskills -a claude-code
+> npx skills add oldwinter/marketingskills -a claude-code
 > ```
 
 ### Option 2: Claude Code Plugin
@@ -201,7 +203,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add coreyhaines31/marketingskills
+/plugin marketplace add oldwinter/marketingskills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -212,7 +214,7 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/coreyhaines31/marketingskills.git
+git clone https://github.com/oldwinter/marketingskills.git
 cp -r marketingskills/skills/* .agents/skills/
 ```
 
@@ -221,7 +223,7 @@ cp -r marketingskills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/marketingskills
+git submodule add https://github.com/oldwinter/marketingskills.git .agents/marketingskills
 ```
 
 Then reference skills from `.agents/marketingskills/skills/`.
@@ -238,13 +240,13 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install coreyhaines31/marketingskills
+npx skillkit install oldwinter/marketingskills
 
 # Install specific skills
-npx skillkit install coreyhaines31/marketingskills --skill cro copywriting
+npx skillkit install oldwinter/marketingskills --skill cro copywriting
 
 # List available skills
-npx skillkit install coreyhaines31/marketingskills --list
+npx skillkit install oldwinter/marketingskills --list
 ```
 
 ## Upgrading from v1.x to v2.0
@@ -261,7 +263,7 @@ rm -rf page-cro form-cro \
        signup-flow-cro social-content
 ```
 
-Then reinstall the v2.0 skills via your usual method (e.g., `npx skills add coreyhaines31/marketingskills`).
+Then reinstall the v2.0 skills via your usual method (e.g., `npx skills add oldwinter/marketingskills`).
 
 ### Migrate the product marketing context file
 
