@@ -4,7 +4,7 @@ Thanks for your interest in contributing to Marketing Skills! This guide will he
 
 ## Requesting a Skill
 
-You can also suggest new skills by [opening a skill request](https://github.com/coreyhaines31/marketingskills/issues/new?template=skill-request.yml).
+You can also suggest new skills by [opening a skill request](https://github.com/oldwinter/marketingskills/issues/new?template=skill-request.yml).
 
 ## Adding a New Skill
 
@@ -85,9 +85,9 @@ The maintainer holds final editorial control and may edit or cut anything for ne
 3. Make your changes
 4. Test locally with an AI agent
 5. Submit a pull request using the appropriate template:
-   - [New Skill](?template=new-skill.md)
-   - [Skill Update](?template=skill-update.md)
-   - [Documentation](?template=documentation.md)
+   - [New Skill](https://github.com/oldwinter/marketingskills/compare?quick_pull=1&template=new-skill.md)
+   - [Skill Update](https://github.com/oldwinter/marketingskills/compare?quick_pull=1&template=skill-update.md)
+   - [Documentation](https://github.com/oldwinter/marketingskills/compare?quick_pull=1&template=documentation.md)
 
 ## Skill Quality Checklist
 
@@ -100,4 +100,4 @@ The maintainer holds final editorial control and may edit or cut anything for ne
 
 ## Questions?
 
-Open an issue if you have questions or need help with your contribution.
+[Open an issue](https://github.com/oldwinter/marketingskills/issues) if you have questions or need help with your contribution.
