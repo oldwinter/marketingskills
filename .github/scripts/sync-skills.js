@@ -18,11 +18,11 @@ const README_FILE = "README.md";
  * Parse YAML frontmatter from a SKILL.md file
  */
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
   if (!match) return {};
 
   const frontmatter = {};
-  const lines = match[1].split("\n");
+  const lines = match[1].split(/\r?\n/);
 
   for (const line of lines) {
     const colonIndex = line.indexOf(":");
@@ -118,8 +118,7 @@ function updateReadme(skills) {
   const newTable = generateSkillsTable(skills);
 
   if (!tableRegex.test(content)) {
-    console.log("WARNING: Could not find skill markers in README.md");
-    return false;
+    throw new Error("Could not find skill markers in README.md");
   }
 
   const newContent = content.replace(tableRegex, `$1${newTable}$2`);

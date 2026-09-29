@@ -63,6 +63,14 @@
 
 ## Recent Changes
 
+### 2.11.2 (2026-09-15)
+
+- **ad-creative** (2.9.1 → 2.9.2): added dark page chrome that follows `prefers-color-scheme`, a skip link, visible keyboard focus, accessible tablist behavior, and a regression test for the creative review template.
+
+### 2.11.1 (2026-09-12)
+
+- **ai-seo** (2.4.0 → 2.5.0): updated format-volatility guidance for ChatGPT 5.6, added fan-out extraction diagnostics and measurement rigor, and labeled unmeasured platform cells as unreported.
+
 ### 2.11.0 (2026-08-23)
 
 - Added the **`events`** skill (1.0.0) — event marketing across all four roles: **hosting** (webinar → workshop → dinner → meetup → virtual summit → user conference, governed by "the topic is the targeting" and recurring-beats-one-off), **sponsoring/exhibiting**, **speaking**, and **attending** (target list → pre-booked meetings → the side-event play). Built on the universal arc — **20% event, 80% before-and-after** — with the 24–48h tiered follow-up, capture-context-not-just-contact discipline, an event-as-recording-studio content arc (transcripts compound in AI answers → ai-seo, public-relations), and a three-tier measurement model (vanity / real / decisive) with multi-touch honesty via attribution. Four references: **webinar-funnel.md** (the flagship funnel, closes #485), **sponsorship-roi.md** (ICP-overlap + cost-per-qualified-meeting math, side-event play, tiered follow-up), **speaking.md** (CFP craft, talk storyboard, the recording as the real audience), and **event-portfolio-strategy.md** (which events to invest in: in-person-necessity by segment, the 80/20 of selection, size↔ROI inverse, the owned/trade-show/community frame + economics — distilled from Corey's *Founding Marketing* ch.9). Seven evals. New skill = repo y release; total skills: 50. Closes #485.
