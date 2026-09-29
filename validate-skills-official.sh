@@ -3,8 +3,8 @@
 # Validation script using official skills-ref library
 # https://github.com/agentskills/agentskills/tree/main/skills-ref
 
-SKILLS_DIR="skills"
-SKILLS_REF_DIR="/tmp/agentskills/skills-ref"
+SKILLS_DIR="${SKILLS_DIR:-skills}"
+SKILLS_REF_DIR="${SKILLS_REF_DIR:-/tmp/agentskills/skills-ref}"
 
 echo "🔍 Validating Skills Using Official skills-ref Library"
 echo "========================================================"
@@ -54,8 +54,7 @@ for skill_dir in "$SKILLS_DIR"/*/; do
     skill_name=$(basename "$skill_dir")
     printf "  %-30s" "$skill_name"
 
-    output=$(skills-ref validate "$skill_dir" 2>&1)
-    if echo "$output" | grep -q "Valid skill"; then
+    if output=$(skills-ref validate "$skill_dir" 2>&1); then
         echo "✓"
         ((PASSED++))
     else
