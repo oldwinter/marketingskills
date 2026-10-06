@@ -2,7 +2,7 @@
 name: co-marketing
 description: "当用户要寻找联合营销伙伴、规划共同活动或构思合作机会时使用；英文触发词包括 co-marketing、partner marketing、joint campaign、cross-promotion。客户推荐参见 referrals，发布合作参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # 联合营销（中文执行导读）
@@ -296,13 +296,13 @@ Would you be open to a quick call to explore?
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools for co-marketing:
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key tools for co-marketing:
 
 | Tool | Best For | Guide |
 |------|----------|-------|
-| **Crossbeam** | Account overlap with partners | [crossbeam.md](../../tools/integrations/crossbeam.md) |
-| **Introw** | Partner program management, deal registration | [introw.md](../../tools/integrations/introw.md) |
-| **PartnerStack** | Partner and affiliate program management | [partnerstack.md](../../tools/integrations/partnerstack.md) |
+| **Crossbeam** | Account overlap with partners | [crossbeam.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/crossbeam.md) |
+| **Introw** | Partner program management, deal registration | [introw.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/introw.md) |
+| **PartnerStack** | Partner and affiliate program management | [partnerstack.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/partnerstack.md) |
 
 ---
 

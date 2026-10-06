@@ -6,7 +6,7 @@
 
 - 上游项目：`coreyhaines31/marketingskills`
 - 中文 fork：`oldwinter/marketingskills`
-- 当前同步上游 commit：`5b2c0007766c6a1cf1d53fd8fc73e979e0821022`
+- 当前同步上游 commit：`dda3841f0b294e01e93b1541486beefbfab0915e`
 - 上游许可：MIT
 - 主要安装面：skills CLI、Claude Code plugin marketplace、直接 clone
 - 目标用户：使用中文与 AI Agent 完成营销工作的技术营销人员、创始人与增长团队
@@ -29,7 +29,7 @@
 - 任一 `SKILL.md` 发生可交付变更时，按上游规则提升该 Skill 的 `metadata.version`，并同步 `VERSIONS.md`。
 - 中文触发与执行能力属于新能力，本次全部 50 个 Skill 提升 minor 版本；新增 `events` 依据上游 `1.0.0` 提升为中文运行时 `1.1.0`。
 - `.claude-plugin/plugin.json` 与 `.claude-plugin/marketplace.json` 的仓库版本保持一致。
-- 首次中文化发布版本为 `2.10.1`，本批同步基线为上游 `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`。
+- 首次中文化发布版本为 `2.10.1`，当前同步发行版本为 `2.11.17`，本批同步基线为上游 `dda3841f0b294e01e93b1541486beefbfab0915e`。
 
 ## 安装与交付
 
@@ -44,6 +44,13 @@ npx skills add oldwinter/marketingskills
 ```text
 /plugin marketplace add oldwinter/marketingskills
 /plugin install marketing-skills
+```
+
+使用 OpenAI Codex plugin marketplace：
+
+```text
+codex plugin marketplace add oldwinter/marketingskills
+/plugins
 ```
 
 ## 同步后检查

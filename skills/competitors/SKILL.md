@@ -1,12 +1,12 @@
 ---
 name: competitors
-description: "当用户要创建竞品比较页、替代方案页、vs 页面或竞争定位内容时使用；英文触发词包括 alternative page、vs page、comparison page、battle card。深度画像参见 competitor-profiling，销售材料参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要创建或审计竞品比较页、替代方案页、vs 页面或竞争定位内容时使用；英文触发词包括 alternative page、vs page、comparison page、competitive asset audit。深度画像参见 competitor-profiling，内部 battle card 参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.3.0
 ---
 
 # 竞品比较与替代页（中文执行导读）
-先确定四种页面格式之一并收集可核验竞品事实，再围绕适配场景、差异、限制、证据和迁移路径构建模块化内容，最后补齐 SEO 与转化要素。
+先确定四种页面格式之一并收集可核验竞品事实；审计既有资产时检查声明的新鲜度与证据，再围绕适配场景、差异、限制、迁移路径、SEO 和转化要素形成内容。
 诚实呈现对手优势，不编造比较；保留产品名、报价、功能术语和结构化字段原样，下方英文正文与 references 是权威契约。
 
 # Competitor & Alternative Pages
@@ -17,6 +17,8 @@ You are an expert in creating competitor comparison and alternative pages. Your 
 
 **Check for product marketing context first:**
 If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+
+**Never guess the competitor.** If the request doesn't name one and the context file doesn't identify it, ask, and stop there. Don't draft a polished page around the most likely candidate.
 
 Before creating competitor pages, understand:
 
@@ -65,6 +67,14 @@ Before creating competitor pages, understand:
 - Competitor data should be centralized
 - Updates propagate to all pages
 - Single source of truth per competitor
+
+### 5. Evidence Discipline
+Comparison pages are public claims about another company. Every one should survive the competitor's own team reading it.
+- **"Not observed" is not "doesn't have."** A pricing page that doesn't list SSO is evidence about the page, not the product. Write "not listed on their pricing page (as of Mar 2026)" or drop the row. Use ✗ or "not available" only when their docs or a hands-on trial confirm the absence.
+- **Date competitor facts.** Pricing and features change. Put an "as of" date on pricing tables and in the competitor data file, and re-verify before republishing.
+- **One look is a snapshot.** A single visit can't support "they haven't changed pricing in years" or "no new features since 2024." That needs dated history (changelog, archived pages).
+- **State what changed, not why.** "They moved SSO to the Enterprise tier" is a fact. "Because they're squeezing upmarket" is a guess. Leave motive out unless they've said it publicly.
+- **Separate fact from interpretation.** Keep what their site says apart from what you think it means for the buyer, and keep both apart from what you recommend.
 
 ---
 
@@ -208,6 +218,22 @@ For each competitor, gather:
 - **When notified**: Customer mentions competitor change
 - **Annually**: Full refresh of all competitor data
 
+### Competitive Asset Audit
+
+When asked to check existing competitive content for stale or risky claims, audit every asset that makes claims about competitors: vs and alternative pages, battle cards, talk tracks, objection docs, and comparison tables in decks.
+
+1. **List each claim** about a competitor, with the asset and line it lives in.
+2. **Re-verify each claim** against the competitor's current site, docs, or changelog, and note the date you checked. If you can't browse, mark claims unchecked and list what to verify. Never mark one Current without a check date.
+3. **Mark each one**:
+   - **Current**: still true, source and date updated
+   - **Changed**: now wrong, with what it says now
+   - **Unverifiable**: had a source once, but nothing current confirms or rules it out. Soften to "not listed (as of date)" or remove
+   - **Overclaimed**: stated as fact with no source behind it (an unconfirmed ✗, a guessed motive, a "why we win" with no evidence). Rewrite to what the evidence supports or remove
+4. **Prioritize fixes**: public pages first (buyers and competitors read them), then anything reps say on calls, then internal docs.
+5. **Report**: assets audited, claims checked, counts by status, and a fix list with the replacement wording.
+
+Apply the Evidence Discipline rules above to every claim, including those in internal sales assets. Where several assets repeat one fact, fix it in the centralized competitor data so the fix carries through.
+
 ---
 
 ## SEO Considerations
@@ -242,6 +268,9 @@ For each page: URL, meta tags, full page copy organized by section, comparison t
 ### Page Set Plan
 Recommended pages to create with priority order based on search volume.
 
+### Asset Audit Report
+Claims checked per asset, status counts (current / changed / unverifiable / overclaimed), and a prioritized fix list with replacement wording.
+
 ---
 
 ## Task-Specific Questions
@@ -259,4 +288,4 @@ Recommended pages to create with priority order based on search volume.
 - **copywriting**: For writing compelling comparison copy
 - **seo-audit**: For optimizing competitor pages
 - **schema**: For FAQ and comparison schema
-- **sales-enablement**: For internal sales collateral, decks, and objection docs
+- **sales-enablement**: For battle cards and internal sales collateral, decks, and objection docs

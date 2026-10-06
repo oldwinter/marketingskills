@@ -1,13 +1,13 @@
 ---
 name: cold-email
-description: "当用户要撰写 B2B 冷启动邮件、销售开发邮件或多触点跟进序列时使用；英文触发词包括 cold email、outbound、prospecting email、SDR。生命周期邮件参见 emails，其他销售材料参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要撰写 B2B 冷启动邮件、销售开发邮件或多触点跟进序列时使用；英文触发词包括 cold email、outbound、prospecting email、SDR、make it sound human。邮件应避免 AI 腔调；生命周期邮件参见 emails，其他销售材料参见 sales-enablement。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # B2B 冷邮件（中文执行导读）
 先确认 ICP、收件人情境、可验证的个性化信号和单一行动请求，再写主题、开场、价值、证据与低摩擦 CTA，并设计不重复的跟进节奏。
-像同行而非群发供应商写作，遵守外联法规与退订要求；保留变量、字段、产品名和证据原样，下方英文正文与 references 是权威契约。
+像同行而非群发供应商写作，避免模板化 AI 句式，遵守外联法规与退订要求；保留变量、字段、产品名和证据原样，下方英文正文与 references 是权威契约。
 
 # Cold Email Writing
 
@@ -34,7 +34,7 @@ Work with whatever the user gives you. If they have a strong signal and a clear 
 
 ### Write like a peer, not a vendor
 
-The email should read like it came from someone who understands their world — not someone trying to sell them something. Use contractions. Read it aloud. If it sounds like marketing copy, rewrite it.
+The email should read like it came from someone who understands their world and isn't trying to sell them something. Use contractions. Read it aloud. If it sounds like marketing copy, rewrite it.
 
 ### Every sentence must earn its place
 
@@ -92,7 +92,7 @@ For the full catalog of frameworks with examples, see [frameworks.md](references
 
 ## Subject Lines
 
-Short, boring, internal-looking. The subject line's only job is to get the email opened — not to sell.
+Short, boring, internal-looking. The subject line's only job is to get the email opened.
 
 - 2-4 words, lowercase, no punctuation tricks
 - Should look like it came from a colleague ("reply rates," "hiring ops," "Q2 forecast")
@@ -118,7 +118,7 @@ See [follow-up-sequences.md](references/follow-up-sequences.md) for cadence, ang
 
 Before presenting, gut-check:
 
-- Does it sound like a human wrote it? (Read it aloud)
+- Does it sound like a human wrote it? (Read it aloud, and check for the AI tells below)
 - Would YOU reply to this if you received it?
 - Does every sentence serve the reader, not the sender?
 - Is the personalization connected to the problem?
@@ -130,7 +130,14 @@ Before presenting, gut-check:
 
 - Opening with "I hope this email finds you well" or "My name is X and I work at Y"
 - Jargon: "synergy," "leverage," "circle back," "best-in-class," "leading provider"
-- Feature dumps — one proof point beats ten features
+- Feature dumps. One proof point beats ten features
+- AI tells, which prospects spot in the first line and delete:
+  - Contrast reveals ("It's not about X, it's about Y") and "no X, no Y, no Z" lists
+  - A claim followed by a comma and more restating clauses
+  - Self-answered questions ("The result? 40% more meetings.") and colon reveals. A real question you want them to answer is fine
+  - Stock phrases: "Here's the thing," "I'll be honest," "Quick question" as an opener, "Say goodbye to," "Unlock," "Take it to the next level"
+  - Em dashes
+  - For the full blacklist, use the **copywriting** skill's AI-tells reference
 - HTML, images, or multiple links
 - Fake "Re:" or "Fwd:" subject lines
 - Identical templates with only {{FirstName}} swapped

@@ -1,8 +1,8 @@
 ---
 name: image
-description: "当用户要生成、编辑或制作营销图像、产品图、社交图、缩略图或视觉资产时使用；英文触发词包括 AI image、image generation、product screenshot、social graphic。视频参见 video，广告素材参见 ad-creative。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要生成、编辑或制作营销图像、产品图、社交图、缩略图或视觉资产时使用；英文触发词包括 AI image、GPT Image、Flux、Midjourney、product screenshot、social graphic。视频参见 video，广告素材参见 ad-creative。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 营销图像（中文执行导读）
@@ -67,7 +67,7 @@ Generate original images from text prompts. The fastest way to create unique mar
 | **Recraft V3** | Vector + brand-consistent illustrations, design assets | Strong | [Recraft API](https://www.recraft.ai/docs) | Per-credit |
 | **Stable Diffusion 3.5 / SDXL** | Self-hosted, customizable, fine-tunable | Varies | Open source | Free (GPU costs) |
 
-**Note:** DALL-E 3 is fully deprecated. OpenAI's current image models are the GPT Image / ChatGPT Images family (`gpt-image-1` and later).
+**Note:** DALL-E 3 is fully deprecated. OpenAI's current image models are the GPT Image family. `gpt-image-1` retires on 23 Oct 2026 and `gpt-image-1-mini` and `gpt-image-1.5` on 1 Dec 2026; OpenAI's recommended replacements are `gpt-image-2.5-sunburst` and `gpt-image-2.5-flare` (check OpenAI's deprecations page for the current list).
 
 ### When to Use Which
 

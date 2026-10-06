@@ -2,7 +2,7 @@
 name: launch
 description: "当用户要规划产品、功能、品牌或 Product Hunt 发布时使用；英文触发词包括 launch strategy、go-to-market launch、Product Hunt、announcement。发布合作参见 co-marketing，目录提交参见 directory-submissions。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # 产品发布（中文执行导读）
@@ -97,7 +97,7 @@ Tap into someone else's audience to shortcut the hardest part—getting noticed.
 1. List industry leaders your audience follows
 2. Pitch win-win collaborations
 3. Use tools like SparkToro or Listen Notes to find audience overlap
-4. Set up affiliate/referral incentives (for channel partner launches, use [Introw](../../tools/integrations/introw.md) to manage deal registration and commissions)
+4. Set up affiliate/referral incentives (for channel partner launches, use [Introw](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/introw.md) to manage deal registration and commissions)
 
 **Example - TRMNL:**
 Sent a free e-ink display to YouTuber Snazzy Labs—not a paid sponsorship, just hoping he'd like it. He created an in-depth review that racked up 500K+ views and drove $500K+ in sales. They also set up an affiliate program for ongoing promotion.

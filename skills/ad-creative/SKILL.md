@@ -1,14 +1,14 @@
 ---
 name: ad-creative
-description: "当用户要生成、迭代或规模化广告标题、正文、视觉概念或完整变体时使用；英文触发词包括 ad creative、RSA headlines、Facebook ad copy、creative testing。投放策略参见 ads，落地页文案参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要生成、迭代或规模化广告标题、正文、视觉概念、创意审阅页或完整变体时使用；英文触发词包括 ad creative、RSA headlines、creative testing、creative review page、UGC ad、Meta ad format。产出应避免 AI 腔调；投放策略参见 ads，落地页文案参见 copywriting。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.9.2
+  version: 2.9.3
 ---
 
 # 广告创意（中文执行导读）
 先确认平台、版位、受众、产品、offer、约束与已有表现数据，再选择从零生成、基于数据迭代、静态批量或创意策略循环，并按平台规格交付可测试变体。
 区分已验证事实与创意假设，不虚构产品证据；保留平台字段、字符限制、素材规格和提示词原样，下方英文正文与 references 是权威契约。
-生成创意审阅页时，说明页面会跟随系统明暗色模式、保留平台 feed 的浅色外观，并支持跳转链接、键盘方向键切换标签和可见焦点环。
+生成创意审阅页时，页面应跟随系统明暗色模式、保留平台 feed 的浅色外观，并支持跳转链接、键盘方向键切换和可见焦点环。
 
 # Ad Creative
 
@@ -156,11 +156,11 @@ For detailed specs and format variations, see [references/platform-specs.md](ref
 
 ## Generating Ad Visuals
 
-**To decide *which format to make next*** (before briefing any specific ad), consult the Meta creative format taxonomy in [references/meta-creative-formats.md](references/meta-creative-formats.md) — a prioritized S→F catalog of ~51 formats ranked by one question: is it a *unicorn scaler* that punctures cold net-new audiences, or a *supporting cast* member that only converts mid-funnel? Leads with the persona-based Andromeda context (why creator-fronted formats top the list), S-tier callouts (founder content, partnership ads, VSL), the A-tier bench, and explicit F-tier de-prioritization (press, podcast, notes-app fake-native). Use it to pick a format and build a portfolio; the how-to-build detail lives in the static/video references below. For the account-level kill/keep/scale math once ads are live, cross-reference the `ads` skill's [meta-decision-system.md](../../ads/references/meta-decision-system.md).
+**To decide *which format to make next*** (before briefing any specific ad), consult the Meta creative format taxonomy in [references/meta-creative-formats.md](references/meta-creative-formats.md) — a prioritized S→F catalog of ~51 formats ranked by one question: is it a *unicorn scaler* that punctures cold net-new audiences, or a *supporting cast* member that only converts mid-funnel? Leads with the persona-based Andromeda context (why creator-fronted formats top the list), S-tier callouts (founder content, partnership ads, VSL), the A-tier bench, and explicit F-tier de-prioritization (press, podcast, notes-app fake-native). Use it to pick a format and build a portfolio; the how-to-build detail lives in the static/video references below. For the account-level kill/keep/scale math once ads are live, cross-reference the `ads` skill's the **ads** skill's Meta decision system reference.
 
 **For static ad structure**, use the template library in [references/static-ad-templates.md](references/static-ad-templates.md) — layout frameworks (Us vs. Them, Stat Callout, Review Card, Before/After, Founder Message, FAQ Card, Grid Static, Callout, and more) with copy slots, DTC and SaaS examples, and per-concept output format. Each template carries a **tier (S–F)** and **funnel role** (unicorn cold-scaler vs. mid-funnel supporting cast) so you reach for the right one first. Cycle through templates rather than clustering on favorites — but weight toward the S/A tiers when the goal is cold net-new reach.
 
-**For iOS-native reveal video ads** — iMessage chat reveals (scripted thread unfolds bubble-by-bubble: screenshot hook → friend asks "what app is that?" → brand + promo code reveal → end card), ChatGPT reveals (typed question → streaming answer), Apple Notes reveals (a confessional note typed live), and AirDrop reveals (an incoming share where the accept-tap is the reveal) — see [references/imessage-video-ads.md](references/imessage-video-ads.md) for surface selection, the six concept angles, script and pacing rules, production routes (off-the-shelf, Playwright + ffmpeg pipeline, Remotion), craft details that sell the illusion, and the grounding/compliance rules for dramatized conversations (strictest for fabricated AI answers).
+**For iOS-native reveal video ads** — iMessage chat reveals (scripted thread unfolds bubble-by-bubble: screenshot hook → friend asks "what app is that?" → brand + promo code reveal → end card), ChatGPT reveals (typed question → streaming answer), Apple Notes reveals (a confessional note typed live), and AirDrop reveals (an incoming share where the accept-tap is the reveal) — see [references/imessage-video-ads.md](references/imessage-video-ads.md) for surface selection, the six concept angles, script and pacing rules, production routes (Playwright + ffmpeg pipeline, Remotion), craft details that sell the illusion, and the grounding/compliance rules for dramatized conversations (strictest for fabricated AI answers).
 
 **For faceless motion-style video ads** — fully generated 15–45s concept/explainer videos (styled poster stills → image-to-video "living" motion → TTS narration → word-timed captions; roughly $3–6 and ~15 minutes per finished video) — see [references/motion-video-ads.md](references/motion-video-ads.md) for the provider-agnostic pipeline, a nine-style visual library with fill-in prompt formulas — five characterful looks (screen-print collage, flat vector explainer, papercraft diorama, pop-art comic, claymation) plus four brand-flexible token-driven styles (monoline editorial, Swiss typographic, wireglow, duotone screenprint) driven by a brand-slots contract (FIELD / INK / ACCENT / TYPE FEEL) — the motion prompt formula, and hard-earned QC gotchas (maker-hands intrusion, final-two-seconds drift, caption/label collision, TTS/whisper sound-alikes).
 
@@ -169,7 +169,7 @@ For detailed specs and format variations, see [references/platform-specs.md](ref
 For image and video generation tools, see [references/generative-tools.md](references/generative-tools.md) for the complete guide covering:
 
 - **Image generation** — Nano Banana Pro (Gemini), Flux, Ideogram for static ad images
-- **Video generation** — Veo, Kling, Runway, Sora, Seedance, Higgsfield for video ads
+- **Video generation** — Veo, Kling, Runway, Seedance, Higgsfield for video ads
 - **Voice & audio** — ElevenLabs, OpenAI TTS, Cartesia for voiceovers, cloning, multilingual
 - **Code-based video** — Remotion for templated, data-driven video at scale
 - **Platform image specs** — Correct dimensions for every ad placement
@@ -281,6 +281,25 @@ Track what was learned and what's being tested:
 - All caps or excessive punctuation
 - Clickbait that the landing page can't deliver on
 
+### No AI Tells
+
+Ad copy that reads as generated looks like every other ad in the feed, and generating at volume multiplies whatever tic the first draft has. Check the whole batch.
+
+Never write these:
+- **Contrast reveals**: "It's not X, it's Y." "Not because X. Because Y." State Y directly, with the reason.
+- **Negation lists**: "No X, no Y, no Z." Say what does happen. One plain absence ("No card required") is fine.
+- **Trailing pile-ons**: a full claim, then a comma and more restating clauses. End the sentence at the claim.
+- **Self-answered questions and colon reveals**: "The result? 3x faster." "The best part: it learns." FAQ questions and a question in the reader's own voice are fine.
+- **Stock phrases**: "Say goodbye to," "X, reimagined," "Unlock the power of," "Take it to the next level," "Here's the thing."
+- **Em dashes** in headlines, descriptions, and primary text.
+
+Ad-specific tells:
+- **Stacked negations to fit a character limit**: "No setup. No fees. No contracts." Keep the one that matters most and use the space for a fact.
+- **Hook slop**: a generic "POV:", "Stop scrolling," "Here's what nobody tells you about X." Earn the next second with something specific to the viewer. A POV hook is fine when the situation is hyper-specific ("POV: it's 3pm and you're on your fourth coffee").
+- **CTA slop**: "Get started today," "Join thousands of happy customers." Name the action and what they get.
+
+Across a batch, vary the sentence shapes. Ten variations that all open the same way read as generated, even when each one is fine alone. For the full blacklist, use the **copywriting** skill's AI-tells reference.
+
 ### Descriptions That Convert
 
 Descriptions should complement headlines, not repeat them. Use descriptions to:
@@ -335,7 +354,7 @@ Per-concept format is defined in [references/static-ad-templates.md](references/
 
 ### Creative Review Page (client / stakeholder approval)
 
-When a person who isn't you needs to review and pick — a client, a partner, a stakeholder — produce a **creative review page**: a self-contained HTML artifact that presents each concept as an in-feed platform mockup (Instagram/Facebook, with a whitelist-handle toggle), breaks carousels into a labeled frame-by-frame storyboard, lets them toggle headline/copy variations, and discloses what's grounded in real assets. It's the visual upgrade to INDEX.md — a decision made off one link instead of by reading markdown. The template ships at [assets/creative-review-template.html](assets/creative-review-template.html) (one file, no build, hostable anywhere); populate its `DATA` object from your generated concepts. Page chrome follows the reviewer's color scheme; the feed mock stays platform-light; keyboard users get a skip link, tablist arrows, and a visible focus ring. Full data model, grounding rules (the disclosure block is required), and delivery in [references/creative-review-page.md](references/creative-review-page.md).
+When a person who isn't you needs to review and pick — a client, a partner, a stakeholder — produce a **creative review page**: a self-contained HTML artifact that presents each concept as an in-feed platform mockup (Instagram/Facebook, with a whitelist-handle toggle), breaks carousels into a labeled frame-by-frame storyboard, lets them toggle headline/copy variations, and discloses what's grounded in real assets. It's the visual upgrade to INDEX.md — a decision made off one link instead of by reading markdown. The template ships at [assets/creative-review-template.html](assets/creative-review-template.html) (one file, no build, hostable anywhere); populate its `DATA` object from your generated concepts. Full data model, grounding rules (the disclosure block is required), and delivery in [references/creative-review-page.md](references/creative-review-page.md).
 
 ### Iteration Report
 
@@ -396,14 +415,14 @@ For large-scale creative production (Anthropic's growth team generates 100+ vari
 
 ## Tool Integrations
 
-For pulling performance data and managing campaigns, see the [tools registry](../../tools/REGISTRY.md).
+For pulling performance data and managing campaigns, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md).
 
 | Platform | Pull Performance Data | Manage Campaigns | Guide |
 |----------|:---------------------:|:----------------:|-------|
-| **Google Ads** | `google-ads campaigns list`, `google-ads reports get` | `google-ads campaigns create` | [google-ads.md](../../tools/integrations/google-ads.md) |
-| **Meta Ads** | `meta-ads insights get` | `meta-ads campaigns list` | [meta-ads.md](../../tools/integrations/meta-ads.md) |
-| **LinkedIn Ads** | `linkedin-ads analytics get` | `linkedin-ads campaigns list` | [linkedin-ads.md](../../tools/integrations/linkedin-ads.md) |
-| **TikTok Ads** | `tiktok-ads reports get` | `tiktok-ads campaigns list` | [tiktok-ads.md](../../tools/integrations/tiktok-ads.md) |
+| **Google Ads** | `google-ads campaigns list`, `google-ads reports get` | `google-ads campaigns create` | [google-ads.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/google-ads.md) |
+| **Meta Ads** | `meta-ads insights get` | `meta-ads campaigns list` | [meta-ads.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/meta-ads.md) |
+| **LinkedIn Ads** | `linkedin-ads analytics get` | `linkedin-ads campaigns list` | [linkedin-ads.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/linkedin-ads.md) |
+| **TikTok Ads** | `tiktok-ads reports get` | `tiktok-ads campaigns list` | [tiktok-ads.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/tiktok-ads.md) |
 
 ### Workflow: Pull Data, Analyze, Generate
 

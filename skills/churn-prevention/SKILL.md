@@ -2,7 +2,7 @@
 name: churn-prevention
 description: "当用户要降低主动或非主动流失、设计取消流程、挽留方案、催收或召回策略时使用；英文触发词包括 churn、cancel flow、save offer、dunning、win-back。召回邮件参见 emails，升级墙参见 paywalls。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 流失预防（中文执行导读）
@@ -364,7 +364,7 @@ Test one variable at a time:
 | Offer presentation (modal vs full page) | Full page gets more attention | Save rate |
 | Copy tone (empathetic vs direct) | Empathetic reduces friction | Save rate |
 
-**How to run cancel flow experiments:** Use the **ab-testing** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](../../tools/integrations/posthog.md) for setup.
+**How to run cancel flow experiments:** Use the **ab-testing** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/posthog.md) for setup.
 
 ---
 
@@ -385,7 +385,7 @@ Test one variable at a time:
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md).
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md).
 
 ### Retention Platforms
 

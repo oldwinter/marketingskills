@@ -2,7 +2,7 @@
 name: analytics
 description: "当用户要设置、改进或审计分析埋点与营销衡量时使用；英文触发词包括 GA4、GTM、event tracking、UTM、Mixpanel、Segment。归因模型参见 attribution，实验衡量参见 ab-testing。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 营销分析与埋点（中文执行导读）
@@ -293,15 +293,15 @@ dataLayer.push({
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analytics tools:
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key analytics tools:
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **GA4** | Web analytics, Google ecosystem | ✓ | [ga4.md](../../tools/integrations/ga4.md) |
-| **Mixpanel** | Product analytics, event tracking | - | [mixpanel.md](../../tools/integrations/mixpanel.md) |
-| **Amplitude** | Product analytics, cohort analysis | - | [amplitude.md](../../tools/integrations/amplitude.md) |
-| **PostHog** | Open-source analytics, session replay | - | [posthog.md](../../tools/integrations/posthog.md) |
-| **Segment** | Customer data platform, routing | - | [segment.md](../../tools/integrations/segment.md) |
+| **GA4** | Web analytics, Google ecosystem | ✓ | [ga4.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/ga4.md) |
+| **Mixpanel** | Product analytics, event tracking | - | [mixpanel.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/mixpanel.md) |
+| **Amplitude** | Product analytics, cohort analysis | - | [amplitude.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/amplitude.md) |
+| **PostHog** | Open-source analytics, session replay | - | [posthog.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/posthog.md) |
+| **Segment** | Customer data platform, routing | - | [segment.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/segment.md) |
 
 ---
 

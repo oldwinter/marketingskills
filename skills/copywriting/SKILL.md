@@ -1,13 +1,13 @@
 ---
 name: copywriting
-description: "当用户要撰写或改写首页、落地页、定价页、功能页、关于页或产品页文案时使用；英文触发词包括 headline、CTA、value proposition、hero copy。邮件参见 emails，弹窗参见 popups，offer 设计参见 offers。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要撰写或改写首页、落地页、定价页、功能页、关于页或产品页文案，并避免 AI 腔调时使用；英文触发词包括 headline、CTA、value proposition、hero copy、AI slop、make it sound human。邮件参见 emails，弹窗参见 popups，offer 设计参见 offers。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # 营销文案写作（中文执行导读）
 先确认页面目标、受众、产品、offer、流量来源和所处旅程，再用客户语言写清价值、证据、异议与单一主行动，并按页面结构交付可直接使用的文案。
-清晰优先于巧妙，不虚构证据或承诺；保留产品名、数字、CTA 目标和受监管措辞原样，下方英文正文与 references 是权威契约。
+清晰优先于巧妙，避免模板化 AI 句式，不虚构证据或承诺；保留产品名、数字、CTA 目标和受监管措辞原样，下方英文正文与 references 是权威契约。
 
 # Copywriting
 
@@ -45,9 +45,9 @@ Gather this context (ask if not provided):
 ## Copywriting Principles
 
 ### Clarity Over Cleverness
-If you have to choose between clear and creative, choose clear. Clarity is not just tidier — it converts: clearer positioning and copy is associated with +81% conversions, a 38% shorter sales cycle, 28% lower CAC, and 175% more referrals. When a reader has to decode your line, you've lost them.
+If you have to choose between clear and creative, choose clear. Clarity also converts. Clearer positioning and copy is associated with +81% conversions, a 38% shorter sales cycle, 28% lower CAC, and 175% more referrals. When a reader has to decode your line, you've lost them.
 
-**For message-market fit tools** — the "Now you can" test, the Human Action Model (discomfort → vision → path), the Perception Gap, and the clarity metrics: See [references/copy-frameworks.md](references/copy-frameworks.md#clarity--message-market-fit)
+**For message-market fit tools** (the "Now you can" test, the Human Action Model (discomfort → vision → path), the Perception Gap, and the clarity metrics): See [references/copy-frameworks.md](references/copy-frameworks.md#clarity--message-market-fit)
 
 ### Benefits Over Features
 Features: What it does. Benefits: What that means for the customer.
@@ -68,15 +68,16 @@ Each section should advance one argument. Build a logical flow down the page.
 
 ### Core Principles
 
-1. **Simple over complex** — "Use" not "utilize," "help" not "facilitate"
-2. **Specific over vague** — Avoid "streamline," "optimize," "innovative"
-3. **Active over passive** — "We generate reports" not "Reports are generated"
-4. **Confident over qualified** — Remove "almost," "very," "really"
-5. **Show over tell** — Describe the outcome instead of using adverbs
-6. **Honest over sensational** — Fabricated statistics or testimonials erode trust and create legal liability
+1. **Simple over complex**: "Use" not "utilize," "help" not "facilitate"
+2. **Specific over vague**: Avoid "streamline," "optimize," "innovative"
+3. **Active over passive**: "We generate reports" not "Reports are generated"
+4. **Confident over qualified**: Remove "almost," "very," "really"
+5. **Show over tell**: Describe the outcome instead of using adverbs
+6. **Honest over sensational**: Fabricated statistics or testimonials erode trust and create legal liability
 
 ### Quick Quality Check
 
+- Any AI tells? (see No AI Tells below)
 - Jargon that could confuse outsiders?
 - Sentences trying to do too much?
 - Passive voice constructions?
@@ -84,6 +85,33 @@ Each section should advance one argument. Build a logical flow down the page.
 - Marketing buzzwords without substance?
 
 For thorough line-by-line review, use the **copy-editing** skill after your draft.
+
+---
+
+## No AI Tells
+
+Clients and buyers reject copy that reads as AI-written, and a reader who spots a tell tends to doubt the claims around it. Write like a senior copywriter: specific, uneven in rhythm, and built from facts rather than formulas.
+
+### Never write these
+
+1. **Contrast reveals.** "It's not X, it's Y." "Not because X. Because Y." "Not just X, but Y." State Y directly, with the reason.
+2. **Negation lists.** "No setup call, no templates, no waiting on IT. No contract." Say what does happen. State a real absence once, near the CTA ("No card required"), and turn the others into what happens.
+3. **Trailing pile-ons.** A full claim followed by a comma and more clauses: "...the data you already have, no exports, no spreadsheets, no second copy." End the sentence at the claim.
+4. **Self-answered questions and colon reveals.** "The result? 3x faster." "The best part: it learns." Just say it. FAQ questions and a reader's own question ("Need to share a screenshot?") are fine.
+5. **Stock openers and phrases.** "In today's fast-paced world," "Whether you're X or Y," "Here's the thing," "Say goodbye to," "X, reimagined," "Unlock the power of," "Take it to the next level."
+6. **Em dashes in short copy.** Headlines, subheads, ads, social posts, and subject lines use none.
+
+### Keep these rare
+
+- At most one fragment and one list of three per section (a hero, a page section, or one short post). CTA microcopy and a real three-feature list are fine.
+- Words like seamless, robust, powerful, unlock, and streamline: replace them with the fact they stand in for.
+- Swap test: if a line would work unchanged on a competitor's site, rewrite it. If you lack the differentiator to fix it, flag `[NEED: differentiator]`.
+
+### Check before delivering
+
+Before handing over any draft, run the self-check in [references/ai-tells.md](references/ai-tells.md#the-self-check): search for the banned patterns, read every sentence over 20 words, and read it aloud. Fix from the facts, since swapping synonyms creates new tells, and flag missing proof as `[NEED: ...]` rather than inventing it.
+
+**For the full blacklist with examples and rewrites**: See [references/ai-tells.md](references/ai-tells.md)
 
 ---
 
@@ -97,15 +125,17 @@ Get to the point. Don't bury the value in qualifications.
 ✅ Need to share a screenshot? Send as many documents, images, and audio files as your heart desires.
 
 ### Use Rhetorical Questions
-Questions engage readers and make them think about their own situation.
+A question that names the reader's pain can open a section well.
 - "Hate returning stuff to Amazon?"
 - "Tired of chasing approvals?"
+
+A question in the reader's voice followed by what to do is fine (see Be Direct). A question that labels your own claim ("The result? 3x faster.") is an AI tell.
 
 ### Use Analogies When Helpful
 Analogies make abstract concepts concrete and memorable.
 
 ### Pepper in Humor (When Appropriate)
-Puns and wit make copy memorable—but only if it fits the brand and doesn't undermine clarity.
+Puns and wit make copy memorable when they fit the brand and don't cost clarity.
 
 ---
 
@@ -126,7 +156,7 @@ Puns and wit make copy memorable—but only if it fits the brand and doesn't und
 
 **For comprehensive headline formulas**: See [references/copy-frameworks.md](references/copy-frameworks.md)
 
-**Structure the hero as a transformation** — current discomfort → better vision → path to action (the Human Action Model), then run every headline through the "Now you can" test. See [references/copy-frameworks.md](references/copy-frameworks.md#clarity--message-market-fit)
+**Structure the hero as a transformation**: current discomfort → better vision → path to action (the Human Action Model), then run every headline through the "Now you can" test. See [references/copy-frameworks.md](references/copy-frameworks.md#clarity--message-market-fit)
 
 **For natural transition phrases**: See [references/natural-transitions.md](references/natural-transitions.md)
 
@@ -242,8 +272,8 @@ For key elements, explain:
 
 ### Alternatives
 For headlines and CTAs, provide 2-3 options:
-- Option A: [copy] — [rationale]
-- Option B: [copy] — [rationale]
+- Option A: [copy]. Rationale: [why]
+- Option B: [copy]. Rationale: [why]
 
 ### Meta Content (if relevant)
 - Page title (for SEO)

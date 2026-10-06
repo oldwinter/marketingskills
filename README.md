@@ -1,4 +1,4 @@
-> **中文 fork 提示：** 本仓库是 [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) 的非官方中文 fork，当前同步上游 commit 为 `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`。
+> **中文 fork 提示：** 本仓库是 [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) 的非官方中文 fork，当前同步上游 commit 为 `dda3841f0b294e01e93b1541486beefbfab0915e`。
 
 # Marketing Skills 中文版
 
@@ -91,7 +91,7 @@ Skills reference each other and build on shared context. The `product-marketing`
 │  SEO &   │ │   CRO    │ │Content & │ │  Paid &    │ │ Growth & │ │  Sales &    │ │ Strategy  │
 │ Content  │ │          │ │   Copy   │ │Measurement │ │Retention │ │    GTM      │ │           │
 ├──────────┤ ├──────────┤ ├──────────┤ ├────────────┤ ├──────────┤ ├─────────────┤ ├───────────┤
-│seo-audit │ │cro       │ │copywritng│ │ads         │ │referrals │ │revops       │ │mktg-ideas │
+│seo-audit │ │cro       │ │copywritin│ │ads         │ │referrals │ │revops       │ │mktg-ideas │
 │ai-seo    │ │signup    │ │copy-edit │ │ad-creative │ │free-tools│ │sales-enable │ │mktg-psych │
 │site-arch │ │onboarding│ │cold-email│ │ab-testing  │ │churn-    │ │launch       │ │customer-  │
 │programm  │ │popups    │ │emails    │ │analytics   │ │ prevent  │ │pricing      │ │ research  │
@@ -118,55 +118,55 @@ See each skill's **Related Skills** section for the full dependency map.
 | Skill | Description |
 |-------|-------------|
 | [ab-testing](skills/ab-testing/) | 当用户要规划、设计或实施 A/B 测试、对照实验或增长实验体系时使用；英文触发词包括 A/B test、split test、hypothesis、statistical significance。埋点实现参见... |
-| [ad-creative](skills/ad-creative/) | 当用户要生成、迭代或规模化广告标题、正文、视觉概念或完整变体时使用；英文触发词包括 ad creative、RSA headlines、Facebook ad copy、creative testing。投放策略参见... |
-| [ads](skills/ads/) | 当用户要规划或优化 Google Ads、Meta、LinkedIn、X 等付费广告时使用；英文触发词包括 PPC、ROAS、CPA、retargeting、Performance Max、ABM。批量创意参见... |
-| [ai-seo](skills/ai-seo/) | 当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率或品牌提及时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、answer engine optimization、generative engine... |
+| [ad-creative](skills/ad-creative/) | 当用户要生成、迭代或规模化广告标题、正文、视觉概念、创意审阅页或完整变体时使用；英文触发词包括 ad creative、RSA headlines、creative testing、creative review page、UGC... |
+| [ads](skills/ads/) | 当用户要规划、审计或优化 Google Ads、Meta、LinkedIn、X 等付费广告时使用；英文触发词包括 PPC、ROAS、CPA、retargeting、Performance Max、ABM、search terms... |
+| [ai-seo](skills/ai-seo/) | 当用户要提升内容在 AI 搜索和大模型答案中的可见度、引用率、品牌认知或推荐率时使用；英文触发词包括 AI SEO、AEO、GEO、LLMO、AI Overviews、AI citations、llms.txt、agent... |
 | [analytics](skills/analytics/) | 当用户要设置、改进或审计分析埋点与营销衡量时使用；英文触发词包括 GA4、GTM、event tracking、UTM、Mixpanel、Segment。归因模型参见 attribution，实验衡量参见 ab-testing。 Use... |
 | [aso](skills/aso/) | 当用户提供 App Store 或 Google Play 页面并要审计或提升可见度、排名与下载转化时使用；英文触发词包括 ASO audit、app store optimization、listing... |
-| [attribution](skills/attribution/) | 当用户要判断哪些营销活动真正带来转化与收入、选择归因模型或解释多工具数据冲突时使用；英文触发词包括 attribution、multi-touch、MMM、incrementality、dark social。埋点参见... |
+| [attribution](skills/attribution/) | 当用户要判断哪些营销活动真正带来转化与收入、选择归因模型或解释多工具数据冲突时使用；英文触发词包括 attribution、multi-touch、MMM、incrementality、dark social、first-party... |
 | [churn-prevention](skills/churn-prevention/) | 当用户要降低主动或非主动流失、设计取消流程、挽留方案、催收或召回策略时使用；英文触发词包括 churn、cancel flow、save offer、dunning、win-back。召回邮件参见 emails，升级墙参见... |
 | [co-marketing](skills/co-marketing/) | 当用户要寻找联合营销伙伴、规划共同活动或构思合作机会时使用；英文触发词包括 co-marketing、partner marketing、joint campaign、cross-promotion。客户推荐参见... |
-| [cold-email](skills/cold-email/) | 当用户要撰写 B2B 冷启动邮件、销售开发邮件或多触点跟进序列时使用；英文触发词包括 cold email、outbound、prospecting email、SDR。生命周期邮件参见 emails，其他销售材料参见... |
+| [cold-email](skills/cold-email/) | 当用户要撰写 B2B 冷启动邮件、销售开发邮件或多触点跟进序列时使用；英文触发词包括 cold email、outbound、prospecting email、SDR、make it sound human。邮件应避免 AI... |
 | [community-marketing](skills/community-marketing/) | 当用户要创建或发展 Discord、Slack、论坛、subreddit、品牌倡导者或社区驱动增长体系时使用；英文触发词包括 community strategy、community-led growth、ambassador... |
 | [competitor-profiling](skills/competitor-profiling/) | 当用户提供竞争对手 URL 并要研究、画像或形成竞争情报档案时使用；英文触发词包括 competitor profile、competitive intelligence、competitor dossier。比较页参见... |
-| [competitors](skills/competitors/) | 当用户要创建竞品比较页、替代方案页、vs 页面或竞争定位内容时使用；英文触发词包括 alternative page、vs page、comparison page、battle card。深度画像参见... |
+| [competitors](skills/competitors/) | 当用户要创建或审计竞品比较页、替代方案页、vs 页面或竞争定位内容时使用；英文触发词包括 alternative page、vs page、comparison page、competitive asset audit。深度画像参见... |
 | [content-strategy](skills/content-strategy/) | 当用户要决定应该创作什么内容、建立主题集群、编辑日历或内容路线图时使用；英文触发词包括 content strategy、topic clusters、content pillars。单篇文案参见 copywriting，SEO 审计参见... |
-| [copy-editing](skills/copy-editing/) | 当用户已有营销文案并要审阅、润色、收紧、刷新或做内容审计时使用；英文触发词包括 edit this copy、proofread、copy sweep、refresh content。新写文案参见 copywriting。 Use... |
-| [copywriting](skills/copywriting/) | 当用户要撰写或改写首页、落地页、定价页、功能页、关于页或产品页文案时使用；英文触发词包括 headline、CTA、value proposition、hero copy。邮件参见 emails，弹窗参见 popups，offer... |
+| [copy-editing](skills/copy-editing/) | 当用户已有营销文案并要审阅、润色、收紧、刷新、去除 AI 腔调或做内容审计时使用；英文触发词包括 edit this copy、proofread、copy sweep、refresh content、AI slop、de-slop... |
+| [copywriting](skills/copywriting/) | 当用户要撰写或改写首页、落地页、定价页、功能页、关于页或产品页文案，并避免 AI 腔调时使用；英文触发词包括 headline、CTA、value proposition、hero copy、AI slop、make it sound... |
 | [cro](skills/cro/) | 当用户要诊断或提升营销页面、落地页、定价页或表单转化时使用，即使只提供 URL 也应触发；英文触发词包括 CRO、conversion rate、form abandonment。注册参见 signup，引导参见... |
-| [customer-research](skills/customer-research/) | 当用户要规划客户研究、分析访谈/评价/工单等现有资料，或从线上聚集地提炼客户语言时使用；英文触发词包括 customer research、VOC、interview analysis、pain points。相关范围参见下方正文。... |
-| [directory-submissions](skills/directory-submissions/) | 当用户要把初创公司、SaaS 或 AI 产品提交到目录、榜单与发布平台时使用；英文触发词包括 directory submission、Product Hunt、startup directories、AI... |
-| [emails](skills/emails/) | 当用户要设计或优化欢迎、培育、激活、促销、流失预防、召回等邮件序列时使用；英文触发词包括 email sequence、drip campaign、lifecycle email、welcome flow。冷外联参见... |
+| [customer-research](skills/customer-research/) | 当用户要规划客户研究、分析访谈/评价/工单等现有资料，或从线上聚集地提炼客户语言时使用；英文触发词包括 customer research、VOC、interview analysis、PMF survey、Sales... |
+| [directory-submissions](skills/directory-submissions/) | 当用户要把初创公司、SaaS、AI 产品、MCP server 或 Claude plugin 提交到目录、榜单与发布平台时使用；英文触发词包括 directory submission、Product Hunt、MCP... |
+| [emails](skills/emails/) | 当用户要设计或优化欢迎、培育、激活、促销、流失预防、召回等邮件序列时使用；英文触发词包括 email sequence、drip campaign、lifecycle email、welcome flow。邮件应避免 AI 腔调和虚假... |
 | [events](skills/events/) | 当用户要规划、执行、赞助、演讲或从活动获取 pipeline 时使用，包括 webinars、conference、trade show、meetup、dinner、workshop、virtual summit 和 user... |
 | [free-tools](skills/free-tools/) | 当用户要用计算器、生成器、检查器、模板或互动工具实现 engineering as marketing 时使用；英文触发词包括 free tool、calculator、generator、lead generation... |
-| [image](skills/image/) | 当用户要生成、编辑或制作营销图像、产品图、社交图、缩略图或视觉资产时使用；英文触发词包括 AI image、image generation、product screenshot、social graphic。视频参见... |
+| [image](skills/image/) | 当用户要生成、编辑或制作营销图像、产品图、社交图、缩略图或视觉资产时使用；英文触发词包括 AI image、GPT Image、Flux、Midjourney、product screenshot、social graphic。视频参见... |
 | [influencer-marketing](skills/influencer-marketing/) | 当用户要寻找、筛选、联系或管理影响者、创作者和品牌大使合作时使用；英文触发词包括 influencer marketing、creator partnership、ambassador、UGC。联合营销参见... |
 | [launch](skills/launch/) | 当用户要规划产品、功能、品牌或 Product Hunt 发布时使用；英文触发词包括 launch strategy、go-to-market launch、Product Hunt、announcement。发布合作参见... |
 | [lead-magnets](skills/lead-magnets/) | 当用户要构思、创建或优化清单、模板、报告、课程、测验等 lead magnet 时使用；英文触发词包括 lead magnet、gated content、downloadable、content upgrade。表单和页面转化参见... |
 | [marketing-council](skills/marketing-council/) | 当用户要用多位真实营销专家的独立视角评审策略、挑战方案或形成共识时使用；英文触发词包括 marketing council、expert panel、what would experts say。具体战术仍应参见对应营销 Skill。... |
 | [marketing-ideas](skills/marketing-ideas/) | 当用户要为 SaaS 获取营销点子、渠道灵感或按目标筛选策略时使用；英文触发词包括 marketing ideas、growth ideas、ways to market、what should we try。完整计划参见... |
-| [marketing-loops](skills/marketing-loops/) | 当用户要设计可重复、可调度、带反馈的营销系统，而非一次性 campaign 时使用；英文触发词包括 marketing loop、growth loop、content loop、feedback loop。分析参见... |
-| [marketing-plan](skills/marketing-plan/) | 当用户需要面向客户、公司或自有产品的完整 90 天与 12 个月营销计划时使用；英文触发词包括 marketing plan、GTM plan、AARRR plan、fractional CMO。定位上下文参见... |
+| [marketing-loops](skills/marketing-loops/) | 当用户要设计可重复、可调度、带反馈的营销系统，而非一次性 campaign 时使用；英文触发词包括 marketing loop、growth loop、content loop、feedback loop、run this every... |
+| [marketing-plan](skills/marketing-plan/) | 当用户需要面向客户、公司或自有产品的完整 90 天与 12 个月营销计划或市场规模评估时使用；英文触发词包括 marketing plan、GTM plan、AARRR plan、fractional CMO、market... |
 | [marketing-psychology](skills/marketing-psychology/) | 当用户要把心理学、行为经济学或心智模型应用于营销信息、定价和用户行为时使用；英文触发词包括 marketing psychology、cognitive bias、persuasion、behavioral... |
 | [offers](skills/offers/) | 当用户要设计、评估或强化服务、课程、咨询、高客单 B2B 等完整 offer 时使用；英文触发词包括 offer design、value equation、bonuses、guarantee、risk reversal。定价参见... |
 | [onboarding](skills/onboarding/) | 当用户要优化注册后的激活、首次体验、aha moment、time to value 或 onboarding flow 时使用；英文触发词包括 activation rate、first session、users sign up... |
 | [paywalls](skills/paywalls/) | 当用户要创建或优化应用内付费墙、升级屏、upsell、feature gate 或试用结束页时使用；英文触发词包括 paywall、upgrade modal、freemium conversion。公开定价页参见 cro，定价策略参见... |
 | [popups](skills/popups/) | 当用户要创建或优化 popup、modal、overlay、slide-in、sticky bar 或 banner 时使用；英文触发词包括 exit intent、lead capture popup、announcement... |
-| [pricing](skills/pricing/) | 当用户要决定价格、套餐、价值指标、免费试用、freemium 或审计定价页时使用；英文触发词包括 pricing tiers、Van Westendorp、willingness to pay、monetization。应用内升级参见... |
+| [pricing](skills/pricing/) | 当用户要决定价格、套餐、价值指标、免费试用、freemium 或审计定价页时使用；英文触发词包括 pricing tiers、Van Westendorp、willingness to pay、monetization、pricing... |
 | [product-marketing](skills/product-marketing/) | 当用户要创建或更新产品定位、ICP、受众、差异化和基础营销上下文时使用；英文触发词包括 positioning、product context、ideal customer profile。新项目在调用其他营销 Skill 前优先使用本... |
 | [programmatic-seo](skills/programmatic-seo/) | 当用户要用模板与数据规模化生成目录页、地点页、集成页、比较页等搜索页面时使用；英文触发词包括 programmatic SEO、pSEO、template pages、pages at scale。SEO 审计参见... |
-| [prospecting](skills/prospecting/) | 当用户要寻找、筛选和建立 B2B SaaS、一般 B2B 或本地商家潜客清单时使用；英文触发词包括 prospecting、lead list、target accounts、design partners。外联文案参见... |
-| [public-relations](skills/public-relations/) | 当用户要获取媒体报道、寻找记者、写 pitch、新闻劫持或响应记者请求时使用；这里的 PR 指 public relations，不是 pull request。英文触发词包括 press release、earned... |
+| [prospecting](skills/prospecting/) | 当用户要寻找、筛选和建立 B2B SaaS、一般 B2B、本地商家或早期需求信号潜客清单时使用；英文触发词包括 prospecting、lead list、target accounts、find my first... |
+| [public-relations](skills/public-relations/) | 当用户要获取媒体报道、寻找记者、写 pitch、新闻劫持、准备 podcast 或处理公关危机时使用；这里的 PR 指 public relations，不是 pull request。英文触发词包括 press... |
 | [referrals](skills/referrals/) | 当用户要创建、优化或分析客户推荐、affiliate、ambassador 或口碑增长计划时使用；英文触发词包括 refer a friend、viral loop、affiliate payout。发布期传播参见... |
 | [revops](skills/revops/) | 当用户要设计收入运营、lead lifecycle、MQL/SQL、lead scoring、routing、CRM 自动化或营销销售交接时使用；英文触发词包括 RevOps、pipeline stages、data... |
-| [sales-enablement](skills/sales-enablement/) | 当用户要创建销售 deck、one-pager、异议处理、ROI 分析、demo 脚本、talk track 或 playbook 时使用；英文触发词包括 sales collateral、pitch deck、proposal... |
+| [sales-enablement](skills/sales-enablement/) | 当用户要创建销售 deck、one-pager、异议处理、ROI 分析、demo 脚本、battle card、win-loss analysis、talk track 或 playbook 时使用；英文触发词包括 sales... |
 | [schema](skills/schema/) | 当用户要添加、修复或优化网站 schema markup 与 JSON-LD 时使用；英文触发词包括 structured data、schema.org、rich snippets、FAQ schema、Product... |
 | [seo-audit](skills/seo-audit/) | 当用户要审计、诊断或修复网站技术 SEO、索引、页面排名或流量下滑时使用，即使请求很模糊也应触发；英文触发词包括 SEO audit、crawl errors、Core Web Vitals。规模化建页参见... |
 | [signup](skills/signup/) | 当用户要优化注册、开户或试用激活流程并减少 dropoff 时使用；英文触发词包括 signup conversion、registration friction、trial signup、account creation。注册后体验参见... |
 | [site-architecture](skills/site-architecture/) | 当用户要规划或重构页面层级、导航、URL、面包屑或内部链接时使用；英文触发词包括 sitemap、information architecture、site hierarchy。XML sitemap 属于技术 SEO，参见... |
-| [sms](skills/sms/) | 当用户要规划、搭建或优化 SMS/MMS 欢迎、弃购、售后、召回、促销或事务消息时使用；英文触发词包括 SMS marketing、Klaviyo SMS、Twilio、A2P 10DLC、TCPA。邮件参见... |
+| [sms](skills/sms/) | 当用户要规划、搭建或优化 SMS、MMS、WhatsApp 欢迎、弃购、售后、召回、促销或事务消息时使用；英文触发词包括 SMS marketing、WhatsApp Business... |
 | [social](skills/social/) | 当用户要为 LinkedIn、X、Instagram、TikTok、Facebook 等创建、排期、复用或优化内容，或做 social listening 时使用；英文触发词包括 content... |
-| [video](skills/video/) | 当用户要用 AI 工具或程序化框架创建、生成、仿制剪辑结构或生产视频时使用；英文触发词包括 Remotion、Hyperframes、HeyGen、Veo、Sora、Runway。内容策略参见 social，视频广告参见... |
+| [video](skills/video/) | 当用户要用 AI 工具或程序化框架创建、生成、仿制剪辑结构、录制产品 demo 或生产视频时使用；英文触发词包括 Remotion、Hyperframes、HeyGen、Veo、product demo video、record a... |
 <!-- SKILLS:END -->
 
 ## Installation
@@ -209,7 +209,28 @@ Install via Claude Code's built-in plugin system:
 /plugin install marketing-skills
 ```
 
-### Option 3: Clone and Copy
+> **Note:** `/plugin` is only available in an interactive Claude Code CLI session. It is **not** available in Claude Code on the web, GitHub Actions, or other non-interactive/remote environments — in those cases you'll see `/plugin isn't available in this environment`. Use **Option 1 (`npx skills`)** instead, or the equivalent CLI commands:
+>
+> ```bash
+> claude plugin marketplace add oldwinter/marketingskills
+> claude plugin install marketing-skills@marketingskills
+> ```
+
+### Option 3: OpenAI Codex Plugin
+
+Install via Codex's plugin system:
+
+```bash
+# Add the marketplace
+codex plugin marketplace add oldwinter/marketingskills
+
+# Then browse and install from inside a Codex session
+/plugins
+```
+
+Select **marketing-skills** to install all skills. To pick up new releases later, run `codex plugin marketplace upgrade`.
+
+### Option 4: Clone and Copy
 
 Clone the entire repo and copy the skills folder:
 
@@ -218,7 +239,7 @@ git clone https://github.com/oldwinter/marketingskills.git
 cp -r marketingskills/skills/* .agents/skills/
 ```
 
-### Option 4: Git Submodule
+### Option 5: Git Submodule
 
 Add as a submodule for easy updates:
 
@@ -228,13 +249,13 @@ git submodule add https://github.com/oldwinter/marketingskills.git .agents/marke
 
 Then reference skills from `.agents/marketingskills/skills/`.
 
-### Option 5: Fork and Customize
+### Option 6: Fork and Customize
 
 1. Fork this repository
 2. Customize skills for your specific needs
 3. Clone your fork into your projects
 
-### Option 6: SkillKit (Multi-Agent)
+### Option 7: SkillKit (Multi-Agent)
 
 Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across multiple AI agents (Claude Code, Cursor, Copilot, etc.):
 

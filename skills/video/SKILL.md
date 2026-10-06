@@ -1,13 +1,13 @@
 ---
 name: video
-description: "当用户要用 AI 工具或程序化框架创建、生成、仿制剪辑结构或生产视频时使用；英文触发词包括 Remotion、Hyperframes、HeyGen、Veo、Sora、Runway。内容策略参见 social，视频广告参见 ad-creative。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要用 AI 工具或程序化框架创建、生成、仿制剪辑结构、录制产品 demo 或生产视频时使用；英文触发词包括 Remotion、Hyperframes、HeyGen、Veo、product demo video、record a product demo、reverse-engineer this video。内容策略参见 social，视频广告参见 ad-creative。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.2.0
+  version: 2.2.1
 ---
 
 # 视频制作（中文执行导读）
-先确认目标、受众、渠道、时长、参考和制作约束，再选择程序化视频、AI 生成、avatar 或混合流程，设计脚本、分镜、提示词、素材与渲染验证，并规划迭代。
-仅复用可授权的风格特征和素材，不冒充真实人物；保留模型名、参数、分辨率、帧率和命令原样，下方英文正文与 references 是权威契约。
+先确认目标、受众、渠道、时长、参考和制作约束，再选择程序化视频、AI 生成、avatar、产品 demo 录制或混合流程，设计脚本、分镜、提示词、素材与渲染验证。
+仅复用可授权的风格特征和素材，不冒充真实人物；录制产品 demo 时保护密钥并验证本地应用状态，保留模型名、参数、分辨率、帧率和命令原样。
 
 # Video
 
@@ -45,7 +45,7 @@ Pick the right tool for the job:
 | Approach | Best For | Tools | When to Use |
 |----------|----------|-------|-------------|
 | **Programmatic** | Templated, data-driven, batch video | Remotion, Hyperframes | Product updates, personalized videos, recurring content |
-| **AI Generation** | Original footage from text/image prompts | Veo 3, Sora 2, Runway, Kling, Seedance | B-roll, hero shots, creative visuals you can't film |
+| **AI Generation** | Original footage from text/image prompts | Veo 3, Runway, Kling, Seedance | B-roll, hero shots, creative visuals you can't film |
 | **AI Avatars** | Talking-head presenter without filming | HeyGen, Synthesia | Explainers, tutorials, multilingual content |
 | **Editing/Repurposing** | Cutting long-form into short clips | Descript, Opus Clip, CapCut | Podcast/webinar → social clips |
 
@@ -60,29 +60,16 @@ Build videos with code. Best for repeatable, templated, or data-driven video at 
 Open-source, Apache 2.0, from HeyGen. Uses plain HTML/CSS/JS — no framework DSL to learn. LLM-native: AI models generate better HTML than React components.
 
 ```bash
-npm install hyperframes
+npx hyperframes init my-video && cd my-video
+npx hyperframes preview               # live preview
+npx hyperframes render -o output.mp4  # render index.html
 ```
 
-**Key concept:** Each frame is an HTML document. Compose frames into a timeline, render to MP4.
-
-```typescript
-import { render } from "hyperframes";
-
-await render({
-  frames: [
-    { html: "<h1>Welcome to Acme</h1>", duration: 3 },
-    { html: "<h2>Here's what we built</h2>", duration: 3 },
-    { html: "<p>Try it free →</p>", duration: 2 },
-  ],
-  output: "intro.mp4",
-  width: 1080,
-  height: 1920, // 9:16 for vertical
-});
-```
+**Key concept:** A composition is one HTML file. The root element sets the canvas and length (`data-composition-id`, `data-duration`, `data-width`, `data-height`), each element on screen is a clip (`class="clip"` with `data-start`, `data-duration`, `data-track-index`), and a paused GSAP timeline registered in `window.__timelines` drives the animation. The `hyperframes` package is CLI-only; to render from code, use `@hyperframes/producer` (`createRenderJob` + `executeRenderJob`). Full syntax and a working example: [Hyperframes integration guide](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hyperframes.md).
 
 **Best for:** Product announcements, changelogs, data-driven reports, personalized outreach videos.
 
-**Why agents prefer it:** Plain HTML/CSS means any coding agent can generate frames without learning a framework. Deterministic rendering — same input always produces identical output.
+**Why agents prefer it:** Plain HTML/CSS means any coding agent can write a composition without learning a framework. Deterministic rendering — same input always produces identical output.
 
 ### Remotion (React)
 
@@ -119,7 +106,7 @@ export const ProductDemo: React.FC<{ title: string; features: string[] }> = ({
 | Factor | Hyperframes | Remotion |
 |--------|-------------|----------|
 | Agent compatibility | Better (plain HTML) | Good (React) |
-| Animation complexity | Basic (CSS transitions) | Advanced (Spring, interpolate) |
+| Animation complexity | GSAP timelines (plus CSS) | Advanced (Spring, interpolate) |
 | Batch rendering | Local | Lambda (AWS) for scale |
 | Learning curve | Minimal | Moderate (React + Remotion API) |
 | License | Apache 2.0 | Company license for commercial use |
@@ -135,7 +122,6 @@ Generate original footage from text or image prompts. Use for B-roll, hero visua
 | Model | Resolution | Max Duration | Best For | Cost |
 |-------|-----------|-------------|----------|------|
 | **Veo 3** (Google) | Up to 1080p (4K varies) | Variable | Top overall quality, synced audio | API-based |
-| **Sora 2** (OpenAI) | Up to 1080p | Up to ~20 sec | Cinematic + synced audio, ChatGPT/API integration | API + ChatGPT |
 | **Runway Gen-4** | Up to 4K | ~10 sec/gen | Motion control, temporal consistency, edit-style workflows | $12-76/mo |
 | **Kling 2.5/3.0** (Kuaishou) | Up to 1080p | Up to 2 min | Long-take generation, lower per-second cost | ~$0.03/sec |
 | **Seedance** (ByteDance) | Up to 1080p | Short clips | Fast generation, strong motion fidelity at low cost, batch-friendly | Per-credit |
@@ -144,7 +130,7 @@ Generate original footage from text or image prompts. Use for B-roll, hero visua
 | **Hunyuan Video / Wan 2** | 720p–1080p | Variable | Open-source self-hosted; full control, no API fees | Free (GPU) |
 
 **Quick picks**:
-- **Highest quality + audio**: Veo 3 or Sora 2
+- **Highest quality + audio**: Veo 3
 - **Batch / volume / cost**: Kling, Seedance
 - **Character consistency across multiple shots**: Hailuo
 - **Self-hosted, brand-controlled**: Hunyuan Video or Wan 2 (open weights)
@@ -265,6 +251,8 @@ To replicate the *style* of a video edit you admire — the cut rhythm, caption 
 5. **Voiceover** — record yourself or use AI avatar for narration
 6. **Export** at platform-appropriate specs
 
+**Scripted in-app recording:** for a repeatable demo of a web app flow (re-recorded every release, run against a local build), drive the app with Playwright and add subtitles, a visible cursor, and optional TTS narration. See [references/product-demo-recording.md](references/product-demo-recording.md) for the workflow, step modes, and local-app gotchas.
+
 ### Explainer Video
 
 1. **Script** the problem → solution → CTA arc
@@ -335,8 +323,8 @@ Output: Ready-to-publish video
 
 | Tool | Type | MCP | Guide |
 |------|------|:---:|-------|
-| **HeyGen** | AI avatars | Yes | [heygen.md](../../tools/integrations/heygen.md) |
-| **Hyperframes** | Programmatic video | - | [hyperframes.md](../../tools/integrations/hyperframes.md) |
+| **HeyGen** | AI avatars | Yes | [heygen.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/heygen.md) |
+| **Hyperframes** | Programmatic video | - | [hyperframes.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hyperframes.md) |
 | **Remotion** | Programmatic video | - | [remotion.dev](https://www.remotion.dev/docs) |
 | **Runway** | AI generation | - | [runwayml.com/docs](https://docs.dev.runwayml.com) |
 

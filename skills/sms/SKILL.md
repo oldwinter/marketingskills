@@ -1,13 +1,13 @@
 ---
 name: sms
-description: "当用户要规划、搭建或优化 SMS/MMS 欢迎、弃购、售后、召回、促销或事务消息时使用；英文触发词包括 SMS marketing、Klaviyo SMS、Twilio、A2P 10DLC、TCPA。邮件参见 emails，号码收集弹窗参见 popups。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要规划、搭建或优化 SMS、MMS、WhatsApp 欢迎、弃购、售后、召回、促销或事务消息时使用；英文触发词包括 SMS marketing、WhatsApp Business API、click-to-WhatsApp、Klaviyo SMS、Twilio、A2P 10DLC、TCPA。邮件参见 emails，号码收集弹窗参见 popups。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
-# 短信营销（中文执行导读）
-先确认业务地区、号码类型、同意记录、平台、目标和现状，再选择 SMS 胜于邮件的场景，设计合规的触发、频率、文案、quiet hours、退订与衡量方案。
-合规优先，法规可能变化，应核对当前官方要求；保留 STOP 等关键词、号码格式、平台字段和法规名称原样，下方英文正文与 references 是权威契约。
+# 短信与 WhatsApp 营销（中文执行导读）
+先确认地区、渠道、号码类型、同意记录、平台、目标和现状，再按 SMS/MMS/WhatsApp 的适用场景设计触发、模板类别、频率、quiet hours、退订与衡量方案。
+合规和渠道当前规则优先，法规与 Meta 计费可能变化，应核对官方要求；保留 STOP 等关键词、号码格式、模板类别、平台字段和法规名称原样。
 
 # SMS Marketing
 
@@ -59,6 +59,20 @@ SMS is not "another email." Use it where the channel's properties win:
 | Post-purchase upsell | **SMS** | High open rate, ride the purchase momentum |
 
 **General rule**: SMS earns the right to interrupt because of opt-in. Use it for messages that genuinely benefit from immediacy. If it could wait 24 hours, send it via email.
+
+---
+
+## WhatsApp
+
+If most customers are outside the US (LATAM, Europe, Africa, Middle East, India, Southeast Asia), WhatsApp often beats SMS for the same flows. It runs on different rules:
+
+- **24-hour window**: free-form messages only within 24 hours of the customer's last message. Outside it, send a Meta-approved template.
+- **Template categories**: marketing, utility, authentication. Cart reminders and anything promotional are marketing.
+- **Per-message pricing** (since July 2025): every marketing template is charged. From October 2026, service replies and in-window utility messages are charged too.
+- **Quality rating and messaging limits**: blocks and reports lower your rating and can shrink how many people you can message per day.
+- **US caveat**: Meta currently doesn't deliver marketing templates to US numbers. Keep SMS for US marketing.
+
+**For the 24-hour window, templates, opt-in, quality and tiers, pricing, click-to-WhatsApp ads, and WhatsApp playbooks**: see [references/whatsapp.md](references/whatsapp.md).
 
 ---
 
@@ -315,18 +329,18 @@ Keep recommendations specific. Don't say "send an SMS at the right time" — say
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key SMS tools:
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key SMS tools:
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **Klaviyo** | E-commerce email + SMS combined | ✓ | [klaviyo.md](../../tools/integrations/klaviyo.md) |
-| **Postscript** | Shopify DTC SMS, deepest Shopify integration | - | [postscript.md](../../tools/integrations/postscript.md) |
-| **Attentive** | Mid-market+ DTC SMS, full-service | - | [attentive.md](../../tools/integrations/attentive.md) |
-| **Twilio** | Raw API for custom builds, transactional, dev-first | - | [twilio.md](../../tools/integrations/twilio.md) |
-| **Plivo** | Twilio alternative, lower per-send cost | - | [plivo.md](../../tools/integrations/plivo.md) |
-| **AudienceTap** | AI-forward DTC, on-pack QR opt-in | - | [audiencetap.md](../../tools/integrations/audiencetap.md) |
-| **Brevo** | EU email + SMS, SMB-friendly | ✓ | [brevo.md](../../tools/integrations/brevo.md) |
-| **Customer.io** | Behavior-based SMS automation | - | [customer-io.md](../../tools/integrations/customer-io.md) |
+| **Klaviyo** | E-commerce email + SMS combined | ✓ | [klaviyo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/klaviyo.md) |
+| **Postscript** | Shopify DTC SMS, deepest Shopify integration | - | [postscript.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/postscript.md) |
+| **Attentive** | Mid-market+ DTC SMS, full-service | - | [attentive.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/attentive.md) |
+| **Twilio** | Raw API for custom builds, transactional, dev-first | - | [twilio.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/twilio.md) |
+| **Plivo** | Twilio alternative, lower per-send cost | - | [plivo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/plivo.md) |
+| **AudienceTap** | AI-forward DTC, on-pack QR opt-in | - | [audiencetap.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/audiencetap.md) |
+| **Brevo** | EU email + SMS, SMB-friendly | ✓ | [brevo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/brevo.md) |
+| **Customer.io** | Behavior-based SMS automation | - | [customer-io.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/customer-io.md) |
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: marketing-loops
-description: "当用户要设计可重复、可调度、带反馈的营销系统，而非一次性 campaign 时使用；英文触发词包括 marketing loop、growth loop、content loop、feedback loop。分析参见 analytics，计划参见 marketing-plan。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要设计可重复、可调度、带反馈的营销系统，而非一次性 campaign 时使用；英文触发词包括 marketing loop、growth loop、content loop、feedback loop、run this every week。分析参见 analytics，计划参见 marketing-plan。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.3.0
+  version: 1.3.1
 ---
 
 # 营销循环（中文执行导读）

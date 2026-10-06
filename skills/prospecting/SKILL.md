@@ -1,8 +1,8 @@
 ---
 name: prospecting
-description: "当用户要寻找、筛选和建立 B2B SaaS、一般 B2B 或本地商家潜客清单时使用；英文触发词包括 prospecting、lead list、target accounts、design partners。外联文案参见 cold-email，竞品深研参见 competitor-profiling。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要寻找、筛选和建立 B2B SaaS、一般 B2B、本地商家或早期需求信号潜客清单时使用；英文触发词包括 prospecting、lead list、target accounts、find my first customers、design partners。外联文案参见 cold-email，竞品深研参见 competitor-profiling。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # 销售线索挖掘（中文执行导读）
@@ -236,22 +236,22 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key prospecting tools:
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key prospecting tools:
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **Apollo** | B2B / SaaS firmographic + contact discovery | - | [apollo.md](../../tools/integrations/apollo.md) |
-| **Clay** | Multi-source enrichment + waterfall | ✓ | [clay.md](../../tools/integrations/clay.md) |
-| **Clearbit** | Email-to-company enrichment | - | [clearbit.md](../../tools/integrations/clearbit.md) |
-| **ZoomInfo** | Enterprise B2B contact + intent | ✓ | [zoominfo.md](../../tools/integrations/zoominfo.md) |
-| **Hunter** | Email pattern + verification | - | [hunter.md](../../tools/integrations/hunter.md) |
-| **Snov** | Email finder + verifier | - | [snov.md](../../tools/integrations/snov.md) |
-| **Truelist** | Email deliverability validation | - | [truelist.md](../../tools/integrations/truelist.md) |
-| **Outreach** | Sales engagement (post-list) | ✓ | [outreach.md](../../tools/integrations/outreach.md) |
-| **RB2B** | Visitor identification (warm intent) | - | [rb2b.md](../../tools/integrations/rb2b.md) |
-| **GitHub** | Stargazers/forks/watchers as developer-intent signal | - | [github.md](../../tools/integrations/github.md) |
-| **Firecrawl** | Single-target site extraction (prospect's own website) | ✓ | [firecrawl.md](../../tools/integrations/firecrawl.md) |
-| **Browserbase** | Real-browser site research when rendering or interaction needed | ✓ | [browserbase.md](../../tools/integrations/browserbase.md) |
+| **Apollo** | B2B / SaaS firmographic + contact discovery | - | [apollo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/apollo.md) |
+| **Clay** | Multi-source enrichment + waterfall | ✓ | [clay.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clay.md) |
+| **Clearbit** | Email-to-company enrichment | - | [clearbit.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clearbit.md) |
+| **ZoomInfo** | Enterprise B2B contact + intent | ✓ | [zoominfo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/zoominfo.md) |
+| **Hunter** | Email pattern + verification | - | [hunter.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hunter.md) |
+| **Snov** | Email finder + verifier | - | [snov.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/snov.md) |
+| **Truelist** | Email deliverability validation | - | [truelist.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/truelist.md) |
+| **Outreach** | Sales engagement (post-list) | ✓ | [outreach.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/outreach.md) |
+| **RB2B** | Visitor identification (warm intent) | - | [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/rb2b.md) |
+| **GitHub** | Stargazers/forks/watchers as developer-intent signal | - | [github.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/github.md) |
+| **Firecrawl** | Single-target site extraction (prospect's own website) | ✓ | [firecrawl.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/firecrawl.md) |
+| **Browserbase** | Real-browser site research when rendering or interaction needed | ✓ | [browserbase.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/browserbase.md) |
 
 ---
 

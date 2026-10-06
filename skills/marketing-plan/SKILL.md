@@ -1,13 +1,13 @@
 ---
 name: marketing-plan
-description: "当用户需要面向客户、公司或自有产品的完整 90 天与 12 个月营销计划时使用；英文触发词包括 marketing plan、GTM plan、AARRR plan、fractional CMO。定位上下文参见 product-marketing，单渠道执行参见对应 Skill。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户需要面向客户、公司或自有产品的完整 90 天与 12 个月营销计划或市场规模评估时使用；英文触发词包括 marketing plan、GTM plan、AARRR plan、fractional CMO、market sizing、TAM SAM SOM。定位上下文参见 product-marketing，单渠道执行参见对应 Skill。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # 营销计划（中文执行导读）
-先读取或创建客户 progress 状态，按 INIT 收集研究与 17 项现状审计，再在 REVIEW 中逐节确认 13 个部分，最后在 FINALIZE 编译、校验并交付可粘贴到 Notion 的计划。
-尊重可恢复状态机，绝不静默覆盖已完成计划；保留 AARRR、路径、文件名、预算和 Skill 名原样，下方英文正文与 references 是权威契约。
+先读取或创建客户 progress 状态，按 INIT 收集研究、市场规模证据与 17 项现状审计，再在 REVIEW 中逐节确认 13 个部分，最后在 FINALIZE 编译、校验并交付可粘贴到 Notion 的计划。
+尊重可恢复状态机，市场规模必须给出方法、范围、假设和置信度，绝不静默覆盖已完成计划；保留 AARRR、路径、文件名、预算和 Skill 名原样。
 
 # Marketing Plan
 
@@ -39,6 +39,8 @@ Examples:
 - `/marketing-plan` (will prompt for client name)
 
 On invocation, the skill reads `~/marketing-plans/{client-slug}/progress.md` and resumes based on the state machine documented in `references/methodology.md` Step 1.1.2 (fresh → INIT → REVIEW → FINALIZE → finalized). Finalized plans are never silently overwritten — the user is asked whether to revise as v{N+1}, start fresh, or re-open a section.
+
+**Path safety.** Build `{client-slug}` only by slugifying the client name to lowercase `[a-z0-9-]` (strip everything else); reject `..`, `/`, and absolute paths, and never read or write outside `~/marketing-plans/`. On a shared machine this keeps one client's plan — and their data — from leaking into another client's context.
 
 ## The three phases
 
@@ -123,6 +125,8 @@ Before planning *how* to market, sanity-check *what* is being marketed. Score th
 | **Small problem** | Weakest — hard to justify attention or spend | Habit-forming but easy to churn on price; needs strong retention |
 
 Use it as a **strategic gate in Section 2 (Strategic frame)**: name which quadrant the product sits in. Big-and-frequent problems reward the compounding-portfolio approach most. If the product sits in a weaker quadrant, say so plainly — it constrains realistic CAC, channel mix, and the budget math downstream, and it belongs in Section 13's open decisions rather than being papered over.
+
+When the gate raises "is this market big enough?", size it with `references/market-sizing.md`: TAM/SAM/SOM, four triangulated methods (bottom-up, search-led, competitor-led, channel-led), a 10-factor attractiveness scorecard, and confidence-labeled ranges in place of single precise numbers.
 
 ## The current-state rubric
 

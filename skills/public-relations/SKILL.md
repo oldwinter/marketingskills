@@ -1,13 +1,13 @@
 ---
 name: public-relations
-description: "当用户要获取媒体报道、寻找记者、写 pitch、新闻劫持或响应记者请求时使用；这里的 PR 指 public relations，不是 pull request。英文触发词包括 press release、earned media、HARO、Qwoted。发布参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要获取媒体报道、寻找记者、写 pitch、新闻劫持、准备 podcast 或处理公关危机时使用；这里的 PR 指 public relations，不是 pull request。英文触发词包括 press release、earned media、HARO、Qwoted、crisis communications、data breach statement。发布参见 launch。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 1.1.1
+  version: 1.2.0
 ---
 
 # 公共关系与赢得媒体（中文执行导读）
-先判断是否具备可报道性并准备 press page 与 media kit，再按记者 beat 和近期作品建立媒体名单，写相关且简洁的 pitch，或按请求时限提供可引用回应，并记录跟进与结果。
-不群发、不伪造新闻价值或记者关系；保留媒体名、记者名、引用、日期和联系方式原样，下方英文正文与 references 是权威契约。
+日常 PR 先判断可报道性、准备 press page/media kit，再按记者 beat 建立名单并写相关且简洁的 pitch；危机响应先定级、组建负责人并在首小时发布经核实的 holding statement。
+涉及法律、监管或安全风险时先让 counsel 介入，不群发、不伪造新闻价值、不抢先承认未核实责任；保留媒体名、记者名、引用、日期和联系方式原样。
 
 # Public Relations & Earned Media
 
@@ -66,6 +66,18 @@ Four modes. Most teams over-index on one. Run at least three.
 **For where to pitch (media outlets, podcasts, newsletters)** — see [references/media-outlets.md](references/media-outlets.md). For startup/SaaS/AI directories, use the separate `directory-submissions` skill — different intent, different list.
 
 **For prepping a podcast appearance you've landed** — see [references/podcast-guest-prep.md](references/podcast-guest-prep.md). Episodes get transcribed and cited by AI assistants, so a good appearance compounds in AI answers for years — prep is an AI-visibility play, not just interview polish.
+
+---
+
+## When Something Goes Wrong
+
+PR also has a reactive side: breaches, outages, viral complaints, executive controversies. The story is already running, so the goal shifts from earning coverage to responding fast and accurately.
+
+Start by assigning a severity tier, then run the first-60-minutes checklist: confirm facts, designate one spokesperson, publish a holding statement, set the next update time. For a data breach, injury, lawsuit, or regulator, loop in legal counsel before admitting fault or publishing.
+
+**For severity tiers, channel order, and playbooks by crisis type** — see [references/crisis-communications.md](references/crisis-communications.md)
+
+**For holding, breach, outage, apology, billing-error, and postmortem templates** — see [references/statement-templates.md](references/statement-templates.md)
 
 ---
 

@@ -1,17 +1,19 @@
 ---
 name: social
-description: "当用户要为 LinkedIn、X、Instagram、TikTok、Facebook 等创建、排期、复用或优化内容，或做 social listening 时使用；英文触发词包括 content calendar、carousel、Reels、Shorts。广告参见 ad-creative，PR 参见 public-relations。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要为 LinkedIn、X、Instagram、TikTok、Facebook 等创建、排期、复用或优化内容，或做 social listening 时使用；英文触发词包括 content calendar、carousel、Reels、Shorts、brand mentions。内容应避免 AI 腔调；广告参见 ad-creative，PR 参见 public-relations。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.3.0
+  version: 2.3.2
 ---
 
 # 社交媒体内容（中文执行导读）
 先确认平台、目标、受众、品牌语气与资源，再建立内容支柱和格式组合，写 hooks、正文、视频脚本或 carousel，安排复用与发布节奏，并用监听信号指导互动。
-按平台原生行为创作而非机械跨发；保留账号名、hashtag、尺寸、时长和平台功能名原样，下方英文正文与 references 是权威契约。
+按平台原生行为创作而非机械跨发，避免 broetry 等 AI 痕迹；保留账号名、hashtag、尺寸、时长和平台功能名原样，下方英文正文与 references 是权威契约。
 
 # Social Content
 
 You are an expert social media strategist. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.
+
+Whatever the platform, storytelling and connecting with your audience come first. The better the user can share their story, the better their posts will perform — platform tactics and algorithm mechanics amplify a good story; they never replace one. Keep this at the center of every recommendation below.
 
 ## Before Creating Content
 
@@ -56,6 +58,8 @@ Gather this context (ask if not provided):
 
 **For hashtag limits and character counts**: See [references/platform-limits.md](references/platform-limits.md)
 
+**For X (Twitter) ranking mechanics** — the For You feed signals from xAI's open-sourced algorithm, and the 10 posting rules they imply: See [references/x-algorithm.md](references/x-algorithm.md). Use it whenever the task involves posting on X.
+
 ---
 
 ## Content Pillars Framework
@@ -89,8 +93,8 @@ The first line determines whether anyone reads the rest.
 
 ### Curiosity Hooks
 - "I was wrong about [common belief]."
-- "The real reason [outcome] happens isn't what you think."
-- "[Impressive result] — and it only took [surprisingly short time]."
+- "[Outcome] usually comes down to [specific, surprising cause]."
+- "[Impressive result] in [surprisingly short time]."
 
 ### Story Hooks
 - "Last week, [unexpected thing] happened."
@@ -104,10 +108,30 @@ The first line determines whether anyone reads the rest.
 
 ### Contrarian Hooks
 - "Unpopular opinion: [bold statement]"
-- "[Common advice] is wrong. Here's why:"
+- "[Common advice] cost us [specific result]."
 - "I stopped [common practice] and [positive result]."
 
 **For post templates and more hooks**: See [references/post-templates.md](references/post-templates.md)
+
+### No AI Tells
+
+Readers scroll past posts that read as generated, and on LinkedIn they say so in the comments. A hook formula is a starting shape. Fill it with a specific fact, number, or story.
+
+Never write these:
+- **Contrast reveals**: "It's not X, it's Y." "Not because X. Because Y." State Y directly, with the reason.
+- **Negation lists**: "No X, no Y, no Z." Say what does happen. One plain absence ("No card required") is fine.
+- **Trailing pile-ons**: a full claim, then a comma and more restating clauses. End the sentence at the claim.
+- **Self-answered questions and colon reveals**: "The result? 3x faster." "The best part: it learns." FAQ questions and a question in the reader's own voice are fine.
+- **Stock phrases**: "Say goodbye to," "X, reimagined," "Unlock the power of," "Take it to the next level," "Here's the thing."
+- **Em dashes** in posts. Use a period or a line break.
+
+Social-specific tells:
+- **Broetry**: one short sentence per line, every line, for the whole post. Write paragraphs and break lines where a person would pause.
+- **Engagement bait**: "Agree?" "Thoughts?" "Let that sink in." "Read that again." End on the point, or a real question you want answered.
+- **Manufactured vulnerability**: "I'll be honest, I was terrified..." with no real story behind it.
+- **Emoji as bullets**: 🚀 ✅ 💡 leading every line.
+
+Keep fragments and lists of three to one per post. For the full blacklist, use the **copywriting** skill's AI-tells reference.
 
 **For carousels** (Instagram carousels, LinkedIn document posts): See [references/carousel-frameworks.md](references/carousel-frameworks.md) — five slide-by-slide narrative architectures (Value-Stack, Problem-Proof, Hack List, Rant Callout, Demo Walkthrough) with framework selection guidance, per-slide copy slots, platform notes, and a production checklist. Pick the framework before writing slides.
 
@@ -299,6 +323,25 @@ Extract "content atoms" — self-contained moments from any long-form content th
 - Review queue weekly for relevance
 - Leave gaps for spontaneous posts
 - Adjust timing based on performance data
+
+### Publishing From Your Agent
+
+Everything above produces drafts and a calendar — actually getting posts onto
+accounts still needs a scheduling tool. If the user has one with an MCP server
+or API, you can execute the plan directly instead of handing them copy-paste
+work:
+
+1. **Check what's connected.** Ask the user what they schedule with. Many
+   scheduling tools (Typefully, Buffer, Marky, and others) expose drafting and
+   scheduling through an MCP server or an API, so you can create and schedule
+   posts directly. Check the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md) for guides.
+2. **Create posts as drafts first** — the user approves before anything is
+   scheduled. Never auto-publish without an explicit go-ahead.
+3. **Schedule per the calendar you built** (spacing and platform rules from
+   this skill still apply), then report back the queue with review links.
+4. **Close the loop.** If the tool exposes post-level stats, pull them next
+   session and feed real engagement data back into the "adjust timing based on
+   performance" step instead of guessing.
 
 ---
 

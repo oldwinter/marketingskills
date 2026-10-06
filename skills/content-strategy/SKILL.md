@@ -2,7 +2,7 @@
 name: content-strategy
 description: "当用户要决定应该创作什么内容、建立主题集群、编辑日历或内容路线图时使用；英文触发词包括 content strategy、topic clusters、content pillars。单篇文案参见 copywriting，SEO 审计参见 seo-audit，社交内容参见 social。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # 内容策略（中文执行导读）

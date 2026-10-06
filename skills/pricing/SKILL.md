@@ -1,8 +1,8 @@
 ---
 name: pricing
-description: "当用户要决定价格、套餐、价值指标、免费试用、freemium 或审计定价页时使用；英文触发词包括 pricing tiers、Van Westendorp、willingness to pay、monetization。应用内升级参见 paywalls，完整 offer 参见 offers。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要决定价格、套餐、价值指标、免费试用、freemium 或审计定价页时使用；英文触发词包括 pricing tiers、Van Westendorp、willingness to pay、monetization、pricing page audit、AI-readable。应用内升级参见 paywalls，完整 offer 参见 offers。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.2.1
+  version: 2.2.2
 ---
 
 # 定价与包装（中文执行导读）

@@ -2,7 +2,7 @@
 name: revops
 description: "当用户要设计收入运营、lead lifecycle、MQL/SQL、lead scoring、routing、CRM 自动化或营销销售交接时使用；英文触发词包括 RevOps、pipeline stages、data hygiene。外联参见 cold-email，定价参见 pricing。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 收入运营（中文执行导读）
@@ -322,20 +322,20 @@ Format each as a standalone document the user can implement directly. Include pl
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key RevOps tools:
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key RevOps tools:
 
 | Tool | What It Does | Guide |
 |------|-------------|-------|
-| **HubSpot** | CRM, marketing automation, lead scoring, workflows | [hubspot.md](../../tools/integrations/hubspot.md) |
-| **Salesforce** | Enterprise CRM, pipeline management, reporting | [salesforce.md](../../tools/integrations/salesforce.md) |
-| **Calendly** | Meeting scheduling, round-robin routing | [calendly.md](../../tools/integrations/calendly.md) |
-| **SavvyCal** | Scheduling with priority-based availability | [savvycal.md](../../tools/integrations/savvycal.md) |
-| **Clearbit** | Real-time lead enrichment and scoring | [clearbit.md](../../tools/integrations/clearbit.md) |
-| **Apollo** | Contact data, enrichment, and outbound sequences | [apollo.md](../../tools/integrations/apollo.md) |
-| **ActiveCampaign** | Marketing automation for SMBs, lead scoring | [activecampaign.md](../../tools/integrations/activecampaign.md) |
-| **Zapier** | Cross-tool automation and workflow glue | [zapier.md](../../tools/integrations/zapier.md) |
-| **Introw** | Partner-sourced pipeline, commissions, deal registration, QBRs | [introw.md](../../tools/integrations/introw.md) |
-| **Crossbeam** | Partner account overlaps and co-sell identification | [crossbeam.md](../../tools/integrations/crossbeam.md) |
+| **HubSpot** | CRM, marketing automation, lead scoring, workflows | [hubspot.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hubspot.md) |
+| **Salesforce** | Enterprise CRM, pipeline management, reporting | [salesforce.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/salesforce.md) |
+| **Calendly** | Meeting scheduling, round-robin routing | [calendly.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/calendly.md) |
+| **SavvyCal** | Scheduling with priority-based availability | [savvycal.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/savvycal.md) |
+| **Clearbit** | Real-time lead enrichment and scoring | [clearbit.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clearbit.md) |
+| **Apollo** | Contact data, enrichment, and outbound sequences | [apollo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/apollo.md) |
+| **ActiveCampaign** | Marketing automation for SMBs, lead scoring | [activecampaign.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/activecampaign.md) |
+| **Zapier** | Cross-tool automation and workflow glue | [zapier.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/zapier.md) |
+| **Introw** | Partner-sourced pipeline, commissions, deal registration, QBRs | [introw.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/introw.md) |
+| **Crossbeam** | Partner account overlaps and co-sell identification | [crossbeam.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/crossbeam.md) |
 
 ---
 

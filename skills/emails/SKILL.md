@@ -1,13 +1,13 @@
 ---
 name: emails
-description: "当用户要设计或优化欢迎、培育、激活、促销、流失预防、召回等邮件序列时使用；英文触发词包括 email sequence、drip campaign、lifecycle email、welcome flow。冷外联参见 cold-email，SMS 参见 sms。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
+description: "当用户要设计或优化欢迎、培育、激活、促销、流失预防、召回等邮件序列时使用；英文触发词包括 email sequence、drip campaign、lifecycle email、welcome flow。邮件应避免 AI 腔调和虚假 Re:；冷外联参见 cold-email，SMS 参见 sms。 Use when the matching Chinese or English intent is present; see the named related skills for adjacent scopes."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 生命周期邮件（中文执行导读）
 先确认受众、触发事件、生命周期阶段、目标与现有数据，再选择序列类型，逐封定义目的、时机、主题、正文与 CTA，最后补充频控、分支、测试和衡量方案。
-每封邮件只承担一个主要动作，并遵守同意与退订规则；保留变量、事件名、时间间隔和平台字段原样，下方英文正文与 references 是权威契约。
+每封邮件只承担一个主要动作，避免模板化 AI 句式，并遵守同意与退订规则；保留变量、事件名、时间间隔和平台字段原样，下方英文正文与 references 是权威契约。
 
 # Email Sequence Design
 
@@ -234,7 +234,26 @@ Key emails:
 - Conversational, not formal
 - First-person (I/we) and second-person (you)
 - Active voice
-- Read it out loud—does it sound human?
+- Read it out loud. Does it sound like a person?
+
+### No AI Tells
+
+Subscribers learn to recognize generated email fast, and they stop reading. Write from the specific thing you want them to know or do.
+
+Never write these:
+- **Contrast reveals**: "It's not X, it's Y." "Not because X. Because Y." State Y directly, with the reason.
+- **Negation lists**: "No X, no Y, no Z." Say what does happen. One plain absence ("No card required") is fine.
+- **Trailing pile-ons**: a full claim, then a comma and more restating clauses. End the sentence at the claim.
+- **Self-answered questions and colon reveals**: "The result? 3x faster." "The best part: it learns." FAQ questions and a question in the reader's own voice are fine.
+- **Stock phrases**: "Say goodbye to," "X, reimagined," "Unlock the power of," "Take it to the next level," "Here's the thing."
+- **Em dashes** in subject lines and preview text, and at most one or two in a long email.
+
+Email-specific tells:
+- **Subject-line bait**: fake "Re:" or "Fwd:", "You won't believe...", "🔥 Big news." The subject should hold up if it's the only line they read.
+- **Stock openers**: "I hope this email finds you well," "Just checking in," "Great news!" Open with the reason you're writing.
+- **Sign-off filler**: "Feel free to reach out if you have any questions." Ask for one specific action, or end.
+
+For the full blacklist, use the **copywriting** skill's AI-tells reference.
 
 ### Length
 - 50-125 words for transactional
@@ -291,16 +310,16 @@ What to measure and benchmarks
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email tools:
+For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key email tools:
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **Customer.io** | Behavior-based automation | - | [customer-io.md](../../tools/integrations/customer-io.md) |
-| **Mailchimp** | SMB email marketing | ✓ | [mailchimp.md](../../tools/integrations/mailchimp.md) |
-| **Nitrosend** | AI-native email (sequences via prompts) | ✓ | [nitrosend.md](../../tools/integrations/nitrosend.md) |
-| **Resend** | Developer-friendly transactional | ✓ | [resend.md](../../tools/integrations/resend.md) |
-| **SendGrid** | Transactional email at scale | - | [sendgrid.md](../../tools/integrations/sendgrid.md) |
-| **Kit** | Creator/newsletter focused | - | [kit.md](../../tools/integrations/kit.md) |
+| **Customer.io** | Behavior-based automation | - | [customer-io.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/customer-io.md) |
+| **Mailchimp** | SMB email marketing | ✓ | [mailchimp.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/mailchimp.md) |
+| **Nitrosend** | AI-native email (sequences via prompts) | ✓ | [nitrosend.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/nitrosend.md) |
+| **Resend** | Developer-friendly transactional | ✓ | [resend.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/resend.md) |
+| **SendGrid** | Transactional email at scale | - | [sendgrid.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/sendgrid.md) |
+| **Kit** | Creator/newsletter focused | - | [kit.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/kit.md) |
 
 ---
 
