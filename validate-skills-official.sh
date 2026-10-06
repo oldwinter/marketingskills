@@ -6,8 +6,8 @@
 # Works on Unix (bash/zsh) and on Windows under Git Bash, where venvs use
 # .venv/Scripts instead of .venv/bin and `python3` is often not on PATH.
 
-SKILLS_DIR="skills"
-SKILLS_REF_DIR="${TMPDIR:-/tmp}/agentskills/skills-ref"
+SKILLS_DIR="${SKILLS_DIR:-skills}"
+SKILLS_REF_DIR="${SKILLS_REF_DIR:-${TMPDIR:-/tmp}/agentskills/skills-ref}"
 
 echo "🔍 Validating Skills Using Official skills-ref Library"
 echo "========================================================"
@@ -116,8 +116,7 @@ for skill_dir in "$SKILLS_DIR"/*/; do
     skill_name=$(basename "$skill_dir")
     printf "  %-30s" "$skill_name"
 
-    output=$(skills-ref validate "$skill_dir" 2>&1)
-    if echo "$output" | grep -qi "valid"; then
+    if output=$(skills-ref validate "$skill_dir" 2>&1); then
         echo "✓"
         ((PASSED++))
     else

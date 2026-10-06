@@ -60,6 +60,7 @@
 - 上游同步至 `dda3841f0b294e01e93b1541486beefbfab0915e`（release `2.11.17`），保留新 Codex plugin、回归门禁、CLI 修复、references、evals 与工具文档。
 - 50 个 runtime 入口继续提供中文触发说明和执行导读；本批补齐 AI 文案痕迹、市场规模、危机公关、WhatsApp、win-loss、产品 demo 等新增能力的中文路由。
 - 中文运行时版本与各 `skills/*/SKILL.md` 的 `metadata.version` 保持一致；已领先上游的中文版本在吸收正文更新后递增 patch。
+- 保留中文 fork 既有的 `ad-creative` 深色 Chrome/无障碍支持，以及 `ai-seo` 格式波动性与品牌共识更新。
 
 ## Recent Changes
 

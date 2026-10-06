@@ -41,16 +41,16 @@ for skill_dir in "$SKILLS_DIR"/*/; do
         continue
     fi
 
-    # Extract frontmatter (between the first two `---` markers, exclusive)
-    frontmatter=$(awk '/^---$/{count++; next} count==1' "$skill_file")
-
-    # Validate frontmatter exists
-    if [[ -z "$frontmatter" ]]; then
+    # Frontmatter must start on line 1 and end at the next standalone delimiter.
+    first_line=$(sed -n '1p' "$skill_file" | tr -d '\r')
+    closing_line=$(awk 'NR > 1 { line=$0; sub(/\r$/, "", line); if (line == "---") { print NR; exit } }' "$skill_file")
+    if [[ "$first_line" != "---" || -z "$closing_line" ]]; then
         echo -e "${RED}❌ $skill_name${NC}"
-        echo "   Missing YAML frontmatter (---)"
+        echo "   Missing or malformed YAML frontmatter delimiters"
         ((ISSUES++))
         continue
     fi
+    frontmatter=$(sed -n "2,$((closing_line - 1))p" "$skill_file" | sed 's/\r$//')
 
     # ===== NAME VALIDATION =====
     name_in_file=$(echo "$frontmatter" | grep "^name:" | sed 's/^name: //' | tr -d ' ')
@@ -103,18 +103,8 @@ for skill_dir in "$SKILLS_DIR"/*/; do
         skill_warnings+=("License '$license' is non-standard (default: MIT)")
     fi
 
-    # Check version placement — 'version' must live under 'metadata:', never at
-    # the top level. Checked unconditionally: the mistake this catches is a
-    # top-level version with no 'metadata:' block at all.
     if echo "$frontmatter" | grep -q "^version:"; then
         skill_errors+=("'version' is top-level (should be under 'metadata:')")
-    fi
-
-    # Check metadata structure
-    metadata=$(echo "$frontmatter" | grep -A 10 "^metadata:")
-    if [[ -n "$metadata" ]]; then
-        # Could add more metadata validation here
-        :
     fi
 
     # ===== FILE STRUCTURE VALIDATION =====
